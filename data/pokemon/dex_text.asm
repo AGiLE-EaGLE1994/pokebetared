@@ -297,6 +297,16 @@ _TangelaDexEntry::
 	next "weed. Its vines"
 	next "shake as it walks"
 	dex
+	
+_AnchorageDexEntry::
+	text "It does not seem"
+	next "to be weighed down"
+	next "by its heavy tail,"
+
+	page "and swims with"
+	next "immense strength"
+	next "and grace."
+	dex	
 
 _GrowlitheDexEntry::
 	text "Very protective"

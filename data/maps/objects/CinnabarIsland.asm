@@ -5,14 +5,14 @@ CinnabarIsland_Object:
 	warp  6,  3, 1, POKEMON_MANSION_1F
 	warp 18,  3, 0, CINNABAR_GYM
 	warp  6,  9, 0, CINNABAR_LAB
-	warp 11, 11, 0, CINNABAR_POKECENTER
-	warp 15, 11, 0, CINNABAR_MART
+	warp 10, 11, 0, CINNABAR_POKECENTER
+	warp 16, 11, 0, CINNABAR_MART
 
 	def_signs
 	sign  9,  5, 3 ; CinnabarIslandText3
-	sign 16, 11, 4 ; MartSignText
-	sign 12, 11, 5 ; PokeCenterSignText
-	sign  9, 11, 6 ; CinnabarIslandText6
+	sign 17, 11, 4 ; MartSignText
+	sign 11, 11, 5 ; PokeCenterSignText
+	sign  9, 13, 6 ; CinnabarIslandText6
 	sign 13,  3, 7 ; CinnabarIslandText7
 
 	def_objects

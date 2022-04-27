@@ -5,7 +5,6 @@ SECTION "bank1", ROMX
 
 INCLUDE "data/sprites/facings.asm"
 INCLUDE "engine/events/black_out.asm"
-INCLUDE "data/pokemon/mew.asm"
 INCLUDE "engine/battle/safari_zone.asm"
 INCLUDE "engine/movie/title.asm"
 INCLUDE "engine/pokemon/load_mon_data.asm"
@@ -955,6 +954,8 @@ VictreebelPicBack::   INCBIN "gfx/pokemon/back/victreebelb.pic"
 
 MewPicFront::         INCBIN "gfx/pokemon/front/mew.pic"
 MewPicBack::          INCBIN "gfx/pokemon/back/mewb.pic"
+AnchoragePicFront::         INCBIN "gfx/pokemon/front/anchorage.pic"
+AnchoragePicBack::          INCBIN "gfx/pokemon/back/anchorageb.pic"
 
 FarfetchdPicFront::   INCBIN "gfx/pokemon/front/farfetchd.pic"
 FarfetchdPicBack::    INCBIN "gfx/pokemon/back/farfetchdb.pic"

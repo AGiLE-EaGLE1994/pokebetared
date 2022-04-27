@@ -2,10 +2,10 @@ FuchsiaCity_Object:
 	db $f ; border block
 
 	def_warps
-	warp  5, 13, 0, FUCHSIA_MART
+	warp  6, 13, 0, FUCHSIA_MART
 	warp 11, 27, 0, FUCHSIA_BILLS_GRANDPAS_HOUSE
-	warp 19, 27, 0, FUCHSIA_POKECENTER
-	warp 27, 27, 0, WARDENS_HOUSE
+	warp 20, 27, 0, FUCHSIA_POKECENTER
+	warp 28, 27, 0, WARDENS_HOUSE
 	warp 18,  3, 0, SAFARI_ZONE_GATE
 	warp  5, 27, 0, FUCHSIA_GYM
 	warp 22, 13, 0, FUCHSIA_MEETING_ROOM
@@ -16,8 +16,8 @@ FuchsiaCity_Object:
 	sign 15, 23, 11 ; FuchsiaCityText11
 	sign 25, 15, 12 ; FuchsiaCityText12
 	sign 17,  5, 13 ; FuchsiaCityText13
-	sign  6, 13, 14 ; MartSignText
-	sign 20, 27, 15 ; PokeCenterSignText
+	sign  7, 13, 14 ; MartSignText
+	sign 21, 27, 15 ; PokeCenterSignText
 	sign 27, 29, 16 ; FuchsiaCityText16
 	sign 21, 15, 17 ; FuchsiaCityText17
 	sign  5, 29, 18 ; FuchsiaCityText18

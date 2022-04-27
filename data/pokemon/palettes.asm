@@ -152,6 +152,7 @@ IF GEN_2_GRAPHICS
 	db PAL_DRAGONITE
 	db PAL_MEWTWO
 	db PAL_MEW
+	db PAL_ANCHORAGE
 TrainerPalettes: ; Gen II trainer sprites are given their own palettes
 	db PAL_HERO
 	db PAL_YOUNGSTER
@@ -354,5 +355,6 @@ ELSE
 	db PAL_BROWNMON  ; DRAGONITE
 	db PAL_MEWMON    ; MEWTWO
 	db PAL_MEWMON    ; MEW
+	db PAL_BLUEMON ; Anchorage
 ; Trainers use index 0 of MonsterPalettes
 ENDC
