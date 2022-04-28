@@ -156,5 +156,13 @@
 	const DEX_MEWTWO     ; 150
 	const DEX_MEW        ; 151
 	const DEX_ANCHORAGE ; 152
+	const DEX_JAGGU ;20
+	const DEX_KOTORA ; $43
+	const DEX_RAITORA  ; $44
+	const DEX_GOROTORA ; $45
+	const DEX_SKIMPER ; $4F
+	const DEX_BAWLIGUA ; $50
+	const DEX_CRYITHAN ; $51
+
 
 NUM_POKEMON EQU const_value - 1

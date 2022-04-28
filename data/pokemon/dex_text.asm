@@ -307,6 +307,16 @@ _AnchorageDexEntry::
 	next "immense strength"
 	next "and grace."
 	dex	
+	
+_JagguDexEntry::
+	text "It uses its spear-"
+	next "tipped snout to "
+	next "impale its enemies"
+
+	page "with extreme pre-"
+	next "judice."
+	next ""
+	dex		
 
 _GrowlitheDexEntry::
 	text "Very protective"
@@ -588,6 +598,36 @@ _DragoniteDexEntry::
 	next "that of humans"
 	dex
 
+_KotoraDexEntry::
+	text "Makes a purring"
+	next "crackle like a "
+	next "motor while it"
+
+	page "generates static"
+	next "electricity in"
+	next "its body."
+	dex	
+	
+_RaitoraDexEntry::
+	text "Marks territory"
+	next "by rubbing its"
+	next "face on objects"
+
+	page "to leave a postive"
+	next "static charge on"
+	next "them."
+	dex		
+
+_GorotoraDexEntry::
+	text "Its purrs sund"
+	next "like deep rolling"
+	next "thunder."
+
+	page "It generates an"
+	next "enormous amount"
+	next "of electricity."
+	dex		
+	
 _DoduoDexEntry::
 	text "A bird that makes"
 	next "up for its poor"
@@ -678,6 +718,36 @@ _KrabbyDexEntry::
 	next "sideways"
 	dex
 
+_SkimperDexEntry::
+	text "Its pincers are"
+	next "not only powerful"
+	next "weapons, they are"
+
+	page "used for balance"
+	next "when walking"
+	next "sideways"
+	dex	
+	
+_BawliguaDexEntry::
+	text "Its strong tail"
+	next "makes it good at"
+	next "swimming. It"
+
+	page "becomes anxious"
+	next "if it's far from"
+	next "water."
+	dex
+
+_CryithanDexEntry::
+	text "IT can be found"
+	next "basking deep in"
+	next "the jungle. When"
+
+	page "it gets too hot,"
+	next "its tears cool it"
+	next "down."
+	dex	
+	
 _VulpixDexEntry::
 	text "At the time of"
 	next "birth, it has"

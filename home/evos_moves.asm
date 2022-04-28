@@ -34,7 +34,7 @@ EvosMovesPointerTable:
 	dw PinsirEvosMoves
 	dw TangelaEvosMoves
 	dw AnchorageEvosMoves
-	dw MissingNo20EvosMoves
+	dw JagguEvosMoves
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
 	dw FearowEvosMoves
@@ -69,9 +69,9 @@ EvosMovesPointerTable:
 	dw FarfetchdEvosMoves
 	dw VenonatEvosMoves
 	dw DragoniteEvosMoves
-	dw MissingNo43EvosMoves
-	dw MissingNo44EvosMoves
-	dw MissingNo45EvosMoves
+	dw KotoraEvosMoves
+	dw RaitoraEvosMoves
+	dw GorotoraEvosMoves
 	dw DoduoEvosMoves
 	dw PoliwagEvosMoves
 	dw JynxEvosMoves
@@ -81,9 +81,9 @@ EvosMovesPointerTable:
 	dw DittoEvosMoves
 	dw MeowthEvosMoves
 	dw KrabbyEvosMoves
-	dw MissingNo4FEvosMoves
-	dw MissingNo50EvosMoves
-	dw MissingNo51EvosMoves
+	dw SkimperEvosMoves
+	dw BawliguaEvosMoves
+	dw CryithanEvosMoves
 	dw VulpixEvosMoves
 	dw NinetalesEvosMoves
 	dw PikachuEvosMoves
@@ -542,9 +542,8 @@ TangelaEvosMoves:
 
 AnchorageEvosMoves:
 ; Evolutions
-db 0
+db EV_ITEM, WATER_STONE, 1, JAGGU
 ; Learnset
-	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 3, GROWL
 	db 6, WATER_GUN
@@ -555,11 +554,24 @@ db 0
 	db 51, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-MissingNo20EvosMoves:
+JagguEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 0
+	db 1, TACKLE
+	db 3, GROWL
+	db 6, WATER_GUN
+	db 10, BITE
+	db 15, LEER
+	db 23, SWORDS_DANCE
+	db 27, BUBBLEBEAM
+	db 32, DOUBLE_EDGE
+	db 37, HORN_DRILL
+	db 43, SHARPEN
+	db 51, HYDRO_PUMP
+	db 64, SUPERSONIC
+	db 0 ; no more level-up moves
+
 
 GrowlitheEvosMoves:
 ; Evolutions
@@ -928,23 +940,40 @@ DragoniteEvosMoves:
 	db 60, HYPER_BEAM
 	db 0
 
-MissingNo43EvosMoves:
+KotoraEvosMoves:
 ; Evolutions
-	db 0
+	db EV_LEVEL, 21, RAITORA
+
 ; Learnset
+	db 9, THUNDER_WAVE
+	db 16, QUICK_ATTACK
+	db 26, SWIFT
+	db 33, AGILITY
+	db 43, THUNDER
 	db 0
 
-MissingNo44EvosMoves:
+RaitoraEvosMoves:
 ; Evolutions
-	db 0
-; Learnset
-	db 0
+	db EV_LEVEL, 43, GOROTORA
 
-MissingNo45EvosMoves:
+; Learnset
+	db 9, THUNDER_WAVE
+	db 16, QUICK_ATTACK
+	db 26, SWIFT
+	db 33, AGILITY
+	db 43, THUNDER
+
+GorotoraEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 0
+	db 9, THUNDER_WAVE
+	db 16, QUICK_ATTACK
+	db 26, SWIFT
+	db 33, AGILITY
+	db 43, THUNDER
+	db 53, EARTHQUAKE
+	db 66, HYPER_BEAM
 
 DoduoEvosMoves:
 ; Evolutions
@@ -1041,23 +1070,40 @@ KrabbyEvosMoves:
 	db 40, HARDEN
 	db 0
 
-MissingNo4FEvosMoves:
+SkimperEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 35, BAWLIGUA
 	db 0
 ; Learnset
-	db 0
+	db 10, WATER_GUN
+	db 22, DRAGON_RAGE
+	db 27, GROWL
+	db 33, EARTHQUAKE
+	db 40, HYPER_BEAM
+	db 48, HYDRO_PUMP
 
-MissingNo50EvosMoves:
+BawliguaEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 66, CRYITHAN
 	db 0
 ; Learnset
-	db 0
+	db 10, WATER_GUN
+	db 22, DRAGON_RAGE
+	db 27, GROWL
+	db 33, EARTHQUAKE
+	db 40, HYPER_BEAM
+	db 48, HYDRO_PUMP
 
-MissingNo51EvosMoves:
+CryithanEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 0
+	db 10, WATER_GUN
+	db 22, DRAGON_RAGE
+	db 27, GROWL
+	db 33, EARTHQUAKE
+	db 40, HYPER_BEAM
+	db 48, HYDRO_PUMP
 
 VulpixEvosMoves:
 ; Evolutions

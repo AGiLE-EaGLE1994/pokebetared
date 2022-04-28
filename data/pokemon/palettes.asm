@@ -153,6 +153,13 @@ IF GEN_2_GRAPHICS
 	db PAL_MEWTWO
 	db PAL_MEW
 	db PAL_ANCHORAGE
+	db PAL_JAGGU
+	db PAL_KOTORA
+	db PAL_RAITORA
+	db PAL_GOROTORA
+	db PAL_SKIMPER
+	db PAL_BAWLIGULA
+	db PAL_CRYITHAN
 TrainerPalettes: ; Gen II trainer sprites are given their own palettes
 	db PAL_HERO
 	db PAL_YOUNGSTER

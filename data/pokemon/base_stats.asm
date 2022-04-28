@@ -153,5 +153,12 @@ INCLUDE "data/pokemon/base_stats/dragonite.asm"
 INCLUDE "data/pokemon/base_stats/mewtwo.asm"
 INCLUDE "data/pokemon/base_stats/mew.asm"
 INCLUDE "data/pokemon/base_stats/anchorage.asm"
+INCLUDE "data/pokemon/base_stats/jaggu.asm"
+INCLUDE "data/pokemon/base_stats/kotora.asm"
+INCLUDE "data/pokemon/base_stats/raitora.asm"
+INCLUDE "data/pokemon/base_stats/gorotora.asm"
+INCLUDE "data/pokemon/base_stats/skimper.asm"
+INCLUDE "data/pokemon/base_stats/bawligua.asm"
+INCLUDE "data/pokemon/base_stats/cryithan.asm"
 BaseStatsEnd::
 	assert BaseStatsEnd - BaseStats == (wMonHeaderEnd - wMonHeader) * (NUM_POKEMON) ; discount Mew

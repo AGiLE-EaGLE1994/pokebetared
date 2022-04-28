@@ -4,3 +4,7 @@ removed references to mew.asm from main.asm
 Added Anchorage dex entry. REQUIRES TWO COLONS FOR THE TEXT IN DEX_TEST.ASM, NOT ONE
 Removed - 1 from base_stats.asm
 Added Anchorage pic file paths to main.asm
+
+
+ZZAZZ Lavender Town theme notes;
+Channel 2 of Lavender Town is replaced with first channel of Cinnabar Island

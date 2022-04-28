@@ -957,6 +957,27 @@ MewPicBack::          INCBIN "gfx/pokemon/back/mewb.pic"
 AnchoragePicFront::         INCBIN "gfx/pokemon/front/anchorage.pic"
 AnchoragePicBack::          INCBIN "gfx/pokemon/back/anchorageb.pic"
 
+JagguPicFront::         INCBIN "gfx/pokemon/front/jaggu.pic"
+JagguPicBack::          INCBIN "gfx/pokemon/back/jaggub.pic"
+
+KotoraPicFront::         INCBIN "gfx/pokemon/front/kotora.pic"
+KotoraPicBack::          INCBIN "gfx/pokemon/back/kotorab.pic"
+
+RaitoraPicFront::         INCBIN "gfx/pokemon/front/raitora.pic"
+RaitoraPicBack::          INCBIN "gfx/pokemon/back/raitorab.pic"
+
+GorotoraPicFront::         INCBIN "gfx/pokemon/front/gorotora.pic"
+GorotoraPicBack::          INCBIN "gfx/pokemon/back/gorotorab.pic"
+
+SkimperPicFront::         INCBIN "gfx/pokemon/front/skimper.pic"
+SkimperPicBack::          INCBIN "gfx/pokemon/back/skimperb.pic"
+
+BawliguaPicFront::         INCBIN "gfx/pokemon/front/skimper.pic"
+BawliguaPicBack::          INCBIN "gfx/pokemon/back/skimperb.pic"
+
+CryithanPicFront::         INCBIN "gfx/pokemon/front/cryithan.pic"
+CryithanPicBack::          INCBIN "gfx/pokemon/back/cryithanb.pic"
+
 FarfetchdPicFront::   INCBIN "gfx/pokemon/front/farfetchd.pic"
 FarfetchdPicBack::    INCBIN "gfx/pokemon/back/farfetchdb.pic"
 VenonatPicFront::     INCBIN "gfx/pokemon/front/venonat.pic"

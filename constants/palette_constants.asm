@@ -274,4 +274,11 @@ IF GEN_2_GRAPHICS
 	const PAL_LANCE         ; $EA
 	const PAL_HERO          ; $EB
 	const PAL_ANCHORAGE
+	const PAL_JAGGU
+	const PAL_KOTORA
+	const PAL_RAITORA
+	const PAL_GOROTORA
+	const PAL_SKIMPER
+	const PAL_BAWLIGUA
+	const PAL_CRYITHAN
 ENDC

@@ -38,7 +38,7 @@
 	const PINSIR             ; $1D
 	const TANGELA            ; $1E
 	const ANCHORAGE             ; $1F
-	const_skip               ; $20
+	const JAGGU               ; $20
 	const GROWLITHE          ; $21
 	const ONIX               ; $22
 	const FEAROW             ; $23
@@ -73,9 +73,9 @@
 	const FARFETCHD          ; $40
 	const VENONAT            ; $41
 	const DRAGONITE          ; $42
-	const_skip               ; $43
-	const_skip               ; $44
-	const_skip               ; $45
+	const KOTORA               ; $43
+	const RAITORA              ; $44
+	const GOROTORA               ; $45
 	const DODUO              ; $46
 	const POLIWAG            ; $47
 	const JYNX               ; $48
@@ -85,9 +85,9 @@
 	const DITTO              ; $4C
 	const MEOWTH             ; $4D
 	const KRABBY             ; $4E
-	const_skip               ; $4F
-	const_skip               ; $50
-	const_skip               ; $51
+	const SKIMPER            ; $4F
+	const BAWLIGUA           ; $50
+	const CRYITHAN           ; $51
 	const VULPIX             ; $52
 	const NINETALES          ; $53
 	const PIKACHU            ; $54

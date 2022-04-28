@@ -30,7 +30,7 @@ PokedexEntryPointers:
 	dw PinsirDexEntry
 	dw TangelaDexEntry
 	dw AnchorageDexEntry
-	dw MissingNoDexEntry
+	dw JagguDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
 	dw FearowDexEntry
@@ -65,9 +65,9 @@ PokedexEntryPointers:
 	dw FarfetchdDexEntry
 	dw VenonatDexEntry
 	dw DragoniteDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw KotoraDexEntry
+	dw RaitoraDexEntry
+	dw GorotoraDexEntry
 	dw DoduoDexEntry
 	dw PoliwagDexEntry
 	dw JynxDexEntry
@@ -77,9 +77,9 @@ PokedexEntryPointers:
 	dw DittoDexEntry
 	dw MeowthDexEntry
 	dw KrabbyDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw SkimperDexEntry
+	dw BawliguaDexEntry
+	dw CryithanDexEntry
 	dw VulpixDexEntry
 	dw NinetalesDexEntry
 	dw PikachuDexEntry
@@ -412,6 +412,13 @@ AnchorageDexEntry:
 	text_far _AnchorageDexEntry
 	text_end	
 	
+JagguDexEntry:
+	db "Shark@@@@"
+	db 25,7
+	dw 2077
+	text_far _JagguDexEntry
+	text_end
+	
 GrowlitheDexEntry:
 	db "PUPPY@"
 	db 2,4
@@ -608,6 +615,27 @@ DragoniteDexEntry:
 	text_far _DragoniteDexEntry
 	text_end
 
+KotoraDexEntry:
+	db "SHOCK TIGER@"
+	db 1,04
+	dw 172
+	text_far _KotoraDexEntry
+	text_end	
+
+RaitoraDexEntry:
+	db "SHOCK TIGER@"
+	db 7,3
+	dw 4630
+	text_far _RaitoraDexEntry
+	text_end	
+
+GorotoraDexEntry:
+	db "SHOCK TIGER@"
+	db 3,11
+	dw 2262
+	text_far _GorotoraDexEntry
+	text_end
+	
 DoduoDexEntry:
 	db "TWIN BIRD@"
 	db 4,7
@@ -671,13 +699,34 @@ KrabbyDexEntry:
 	text_far _KrabbyDexEntry
 	text_end
 
+SkimperDexEntry:
+	db "WEEPING@"
+	db 2,4
+	dw 140
+	text_far _SkimperDexEntry
+	text_end	
+
+BawliguaDexEntry:
+	db "WEEPING@"
+	db 3,03
+	dw 736
+	text_far _BawliguaDexEntry
+	text_end	
+
+CryithanDexEntry:
+	db "RIVER CRAB@"
+	db 1,4
+	dw 140
+	text_far _CryithanDexEntry
+	text_end
+	
 VulpixDexEntry:
 	db "FOX@"
 	db 2,0
 	dw 220
 	text_far _VulpixDexEntry
 	text_end
-
+	
 NinetalesDexEntry:
 	db "FOX@"
 	db 3,7

@@ -75,3 +75,7 @@ MonPartyData:
 	dn ICON_SNAKE,     ICON_SNAKE     ; Dratini / Dragonair
 	dn ICON_SNAKE,     ICON_MON       ; Dragonite / Mewtwo
 	dn ICON_MON,       ICON_WATER             ; Mew / Anchorage
+	dn ICON_WATER,       ICON_MON             ; Jaggu / Kotora
+	dn ICON_MON,       ICON_MON             ; Raitora / Gorotora
+	dn ICON_MON,       ICON_MON             ; Skimper / Bawlugila
+	dn ICON_MON,       0             ; Cryithan / Padding
