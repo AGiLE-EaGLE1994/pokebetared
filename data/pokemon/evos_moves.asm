@@ -62,9 +62,9 @@ EvosMovesPointerTable:
 	dw SeelEvosMoves
 	dw DiglettEvosMoves
 	dw TaurosEvosMoves
-	dw MissingNo3DEvosMoves
-	dw MissingNo3EEvosMoves
-	dw MissingNo3FEvosMoves
+	dw TrampelEvosMoves
+	dw CrockyEvosMoves
+	dw BlottleEvosMoves
 	dw FarfetchdEvosMoves
 	dw VenonatEvosMoves
 	dw DragoniteEvosMoves
@@ -87,8 +87,8 @@ EvosMovesPointerTable:
 	dw NinetalesEvosMoves
 	dw PikachuEvosMoves
 	dw RaichuEvosMoves
-	dw MissingNo56EvosMoves
-	dw MissingNo57EvosMoves
+	dw GorochuEvosMoves
+	dw NidoreignEvosMoves
 	dw DratiniEvosMoves
 	dw DragonairEvosMoves
 	dw KabutoEvosMoves
@@ -175,7 +175,7 @@ EvosMovesPointerTable:
 	dw AerodactylEvosMoves
 	dw MissingNoACEvosMoves
 	dw MagnemiteEvosMoves
-	dw MissingNoAEEvosMoves
+	dw TotartleEvosMoves
 	dw MissingNoAFEvosMoves
 	dw CharmanderEvosMoves
 	dw SquirtleEvosMoves
@@ -885,19 +885,19 @@ TaurosEvosMoves:
 	db 51, TAKE_DOWN
 	db 0
 
-MissingNo3DEvosMoves:
+TrampelEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
 	db 0
 
-MissingNo3EEvosMoves:
+CrockyEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
 	db 0
 
-MissingNo3FEvosMoves:
+BlottleEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
@@ -1140,13 +1140,13 @@ RaichuEvosMoves:
 ; Learnset
 	db 0
 
-MissingNo56EvosMoves:
+GorochuEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
 	db 0
 
-MissingNo57EvosMoves:
+NidoreignEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
@@ -1220,16 +1220,39 @@ SeadraEvosMoves:
 	db 52, HYDRO_PUMP
 	db 0
 
-MissingNo5EEvosMoves:
+CheepEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 42, JABETTA
 	db 0
 ; Learnset
+	db 10, WATER_GUN
+	db 15, PECK
+	db 17, SING
+	db 22, BUBBLE
+	db 24, SWIFT
+	db 27, AGILITY
+	db 31, SWIFT
+	db 34, SKY_ATTACK
+	db 38, WING_ATTACK
+	db 47, HYDRO_PUMP
 	db 0
 
-MissingNo5FEvosMoves:
+JabettaEvosMoves:
 ; Evolutions
-	db 0
+	db 0 ; no evolution
 ; Learnset
+	db 10, WATER_GUN
+	db 15, PECK
+	db 17, SING
+	db 22, BUBBLE
+	db 24, SWIFT
+	db 27, AGILITY
+	db 31, SWIFT
+	db 34, SKY_ATTACK
+	db 38, WING_ATTACK
+	db 47, HYDRO_PUMP
+	db 56, EARTHQUAKE
+	db 64, WATERFALL
 	db 0
 
 SandshrewEvosMoves:
@@ -2017,7 +2040,7 @@ MagnemiteEvosMoves:
 	db 47, SCREECH
 	db 0
 
-MissingNoAEEvosMoves:
+TotartleEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset

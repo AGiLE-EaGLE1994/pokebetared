@@ -29,8 +29,8 @@ MonsterNames::
 	db "BLASTOISE@"
 	db "PINSIR@@@@"
 	db "TANGELA@@@"
-	db "ANCHORAGE@"
-	db "JAGGU@@@@@"
+	db "ANCHORAGE@" ;new
+	db "JAGGU@@@@@" ;new
 	db "GROWLITHE@"
 	db "ONIX@@@@@@"
 	db "FEAROW@@@@"
@@ -48,26 +48,26 @@ MonsterNames::
 	db "PSYDUCK@@@"
 	db "DROWZEE@@@"
 	db "GOLEM@@@@@"
-	db "MISSINGNO@"
+	db "BLOONDER@@" ;new
 	db "MAGMAR@@@@"
-	db "MISSINGNO@"
+	db "FREEZETI@@" ;new
 	db "ELECTABUZZ"
 	db "MAGNETON@@"
 	db "KOFFING@@@"
-	db "MISSINGNO@"
+	db "SCARIBOU@@" ;new
 	db "MANKEY@@@@"
 	db "SEEL@@@@@@"
 	db "DIGLETT@@@"
 	db "TAUROS@@@@"
-	db "MISSINGNO@"
-	db "MISSINGNO@"
-	db "MISSINGNO@"
+	db "TRAMPEL@@@" ;new
+	db "CROCKY@@@@" ;new
+	db "BLOTTLE@@@" ;new
 	db "FARFETCH'D"
 	db "VENONAT@@@"
 	db "DRAGONITE@"
-	db "KOTORA@@@@"
-	db "RAITORA@@@"
-	db "GOROTORA@@@"
+	db "KOTORA@@@@" ;new
+	db "RAITORA@@@" ;new
+	db "GOROTORA@@" ;new
 	db "DODUO@@@@@"
 	db "POLIWAG@@@"
 	db "JYNX@@@@@@"
@@ -77,23 +77,23 @@ MonsterNames::
 	db "DITTO@@@@@"
 	db "MEOWTH@@@@"
 	db "KRABBY@@@@"
-	db "SKIMPER@@@"
-	db "BAWLIGUA@@"
-	db "CRYITHAN@@"
+	db "SKIMPER@@@" ;new
+	db "BAWLIGUA@@" ;new
+	db "CRYITHAN@@" ;new
 	db "VULPIX@@@@"
 	db "NINETALES@"
 	db "PIKACHU@@@"
 	db "RAICHU@@@@"
-	db "MISSINGNO@"
-	db "MISSINGNO@"
+	db "GOROCHU@@@" ;new
+	db "NIDOREIGN@"
 	db "DRATINI@@@"
 	db "DRAGONAIR@"
 	db "KABUTO@@@@"
 	db "KABUTOPS@@"
 	db "HORSEA@@@@"
 	db "SEADRA@@@@"
-	db "MISSINGNO@"
-	db "MISSINGNO@"
+	db "CHEEP@@@@@" ;new
+	db "JABETTA@@@" ;new
 	db "SANDSHREW@"
 	db "SANDSLASH@"
 	db "OMANYTE@@@"
@@ -113,38 +113,38 @@ MonsterNames::
 	db "WEEDLE@@@@"
 	db "KAKUNA@@@@"
 	db "BEEDRILL@@"
-	db "MISSINGNO@"
+	db "BLASTYKE@@" ;new
 	db "DODRIO@@@@"
 	db "PRIMEAPE@@"
 	db "DUGTRIO@@@"
 	db "VENOMOTH@@"
 	db "DEWGONG@@@"
-	db "MISSINGNO@"
-	db "MISSINGNO@"
+	db "MEOWSY@@@@"
+	db "PENDRAKEN@" ;new
 	db "CATERPIE@@"
 	db "METAPOD@@@"
 	db "BUTTERFREE"
 	db "MACHAMP@@@"
-	db "MISSINGNO@"
+	db "WEIRDUCK@@" ;new
 	db "GOLDUCK@@@"
 	db "HYPNO@@@@@"
 	db "GOLBAT@@@@"
 	db "MEWTWO@@@@"
 	db "SNORLAX@@@"
 	db "MAGIKARP@@"
-	db "MISSINGNO@"
-	db "MISSINGNO@"
+	db "RIBBITO@@@" ;new
+	db "CROAKOZUNA" ;new
 	db "MUK@@@@@@@"
-	db "MISSINGNO@"
+	db "STACKTUS@@" ;new
 	db "KINGLER@@@"
 	db "CLOYSTER@@"
-	db "MISSINGNO@"
+	db "BITTYBAT@@" ;new
 	db "ELECTRODE@"
 	db "CLEFABLE@@"
 	db "WEEZING@@@"
 	db "PERSIAN@@@"
 	db "MAROWAK@@@"
-	db "MISSINGNO@"
+	db "DECILLA@@@" ;new
 	db "HAUNTER@@@"
 	db "ABRA@@@@@@"
 	db "ALAKAZAM@@"
@@ -154,13 +154,13 @@ MonsterNames::
 	db "BULBASAUR@"
 	db "VENUSAUR@@"
 	db "TENTACRUEL"
-	db "MISSINGNO@"
+	db "GYAOON@@@@" ;new
 	db "GOLDEEN@@@"
 	db "SEAKING@@@"
-	db "MISSINGNO@"
-	db "MISSINGNO@"
-	db "MISSINGNO@"
-	db "MISSINGNO@"
+	db "TRIFOX@@@@" ;new
+	db "GUARDIA@@@" ;new
+	db "GOLPPY@@@@" ;new
+	db "MINICORN@@" ;new
 	db "PONYTA@@@@"
 	db "RAPIDASH@@"
 	db "RATTATA@@@"
@@ -170,19 +170,19 @@ MonsterNames::
 	db "GEODUDE@@@"
 	db "PORYGON@@@"
 	db "AERODACTYL"
-	db "MISSINGNO@"
+	db "MAGNETITE@" ;new
 	db "MAGNEMITE@"
-	db "MISSINGNO@"
-	db "MISSINGNO@"
+	db "TOTARTLE@@" ;new
+	db "MISSINGNO@" ;mino
 	db "CHARMANDER"
 	db "SQUIRTLE@@"
 	db "CHARMELEON"
 	db "WARTORTLE@"
 	db "CHARIZARD@"
-	db "MISSINGNO@"
-	db "MISSINGNO@"
-	db "MISSINGNO@"
-	db "MISSINGNO@"
+	db "MISSINGNO@" ;mino
+	db "MISSINGNO@" ; mino
+	db "MISSINGNO@" ; mino
+	db "MISSINGNO@" ;mino
 	db "ODDISH@@@@"
 	db "GLOOM@@@@@"
 	db "VILEPLUME@"

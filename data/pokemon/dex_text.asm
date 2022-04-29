@@ -568,6 +568,36 @@ _TaurosDexEntry::
 	next "long tails"
 	dex
 
+_TrampelDexEntry::
+	text "It never forgets"
+	next "anything it has"
+	next "seen or heard, so"
+
+	page "it helps SLOWPOKE"
+	next "and PSYDUCK to"
+	next "remember things."
+	dex	
+	
+_CrockyDexEntry::
+	text "It stands still,"
+	next "waiting for prey."
+	next "Unwary people who"
+
+	page "meet its gaze will"
+	next "become unable to"
+	next "move."
+	dex	
+	
+_BlottleDexEntry::
+	text "Sometimes it can"
+	next "accidentally lose"
+	next "its shell while"
+
+	page "fleeing. These"
+	next "shells are prized"
+	next "by collectors."
+	dex	
+	
 _FarfetchdDexEntry::
 	text "The sprig of"
 	next "green onions it"
@@ -788,6 +818,26 @@ _RaichuDexEntry::
 	next "power"
 	dex
 
+_GorochuDexEntry::
+	text "It may be cute,"
+	next "but it can store"
+	next "unbelieveable"
+
+	page "amounts of energy"
+	next "within its fur"
+	next "and tail."
+	dex	
+	
+_NidoreignDexEntry::
+	text "A rare #MON"
+	next "which evolved"
+	next "from a NIDORAN"
+
+	page "exposed to the"
+	next "radiation of a"
+	next "MOON STONE."
+	dex		
+	
 _DratiniDexEntry::
 	text "Long considered a"
 	next "mythical #MON"
@@ -1128,6 +1178,16 @@ _MachampDexEntry::
 	next "the horizon"
 	dex
 
+_WeirduckDexEntry::
+	text "If it begins to"
+	next "stare at you and"
+	next "won't stop, you"
+
+	page "can snap it out"
+	next "of it by offering"
+	next "a snack or toy."
+	dex	
+	
 _GolduckDexEntry::
 	text "Often seen swim-"
 	next "ming elegantly by"
@@ -1188,6 +1248,25 @@ _MagikarpDexEntry::
 	next "that exist today"
 	dex
 
+_RibbitoDexEntry::
+	text "Despite its small"
+	next "size, it is very"
+	next "heavy, and will"
+
+	page "only gain more"
+	next "and more weight"
+	next "as it grows."
+	dex
+
+_CroakozunaDexEntry::
+	text "This #MON is"
+	next "very territorial."
+	next "It inflates its"
+
+	page "throat sac to in-"
+	next "timidate rivals."
+	dex	
+	
 _MukDexEntry::
 	text "Thickly covered"
 	next "with a filthy,"
@@ -1198,6 +1277,16 @@ _MukDexEntry::
 	next "contain poison"
 	dex
 
+_StacktusDexEntry::
+	text "The pieces it can"
+	next "tear off itself"
+	next "to attack will"
+
+	page "regrow, so it can"
+	next "afford to be very"
+	next "reckless."
+	dex	
+	
 _KinglerDexEntry::
 	text "The large pincer"
 	next "has 10000 hp of"
@@ -1218,6 +1307,16 @@ _CloysterDexEntry::
 	next "never been seen"
 	dex
 
+_BittybatDexEntry::
+	text "Due to their tiny"
+	next "size, several of"
+	next "these #MON may"
+
+	page "swarm a victim at"
+	next "once so they may"
+	next "prey upon it."
+	dex	
+	
 _ElectrodeDexEntry::
 	text "It stores electric"
 	next "energy under very"
@@ -1268,6 +1367,16 @@ _MarowakDexEntry::
 	next "to KO targets"
 	dex
 
+_DecillaDexEntry::
+	text "If it gets hurt,"
+	next "GYAOON will arrive"
+	next "and promptly and"
+
+	page "utterly destroy"
+	next "everything in the"
+	next "general vicinity."
+	dex		
+	
 _HaunterDexEntry::
 	text "Because of its"
 	next "ability to slip"
@@ -1358,6 +1467,16 @@ _TentacruelDexEntry::
 	next "immobilize prey"
 	dex
 
+_GyaoonDexEntry::
+	text "It was revived"
+	next "using DNA from"
+	next "POLIWAG eggs. It"
+
+	page "is very dangerous"
+	next "and frequently"
+	next "rampages wildly."
+	dex	
+	
 _GoldeenDexEntry::
 	text "Its tail fin"
 	next "billows like an"
@@ -1378,6 +1497,46 @@ _SeakingDexEntry::
 	next "and creeks"
 	dex
 
+_TrifoxDexEntry::
+	text "It's quite cute"
+	next "and sought-after"
+	next "as a pet, but its"
+
+	page "very mischievous"
+	next "nature makes it"
+	next "hard to care for."
+	dex	
+	
+_GuardiaDexEntry::
+	text "If anyone dares"
+	next "to harm a child,"
+	next "it will know no"
+
+	page "matter where they"
+	next "are, and will come"
+	next "for revenge."
+	dex
+
+_GolppyDexEntry::
+	text "It almost became"
+	next "extinct, but due"
+	next "to the efforts"
+
+	page "of one dedicated"
+	next "breeder, it has"
+	next "flourished again."
+	dex	
+
+_MinicornDexEntry::
+	text "It is big enough"
+	next "to be ridden by"
+	next "small children."
+
+	page "and can be"
+	next "trained for this"
+	next "before evolving."
+	dex		
+	
 _PonytaDexEntry::
 	text "Its hooves are 10"
 	next "times harder than"
@@ -1478,6 +1637,16 @@ _MagnemiteDexEntry::
 	next "similar moves"
 	dex
 
+_TotartleDexEntry::
+	text "Some of tgen are"
+	next "so old, they are"
+	next "believed to have"
+
+	page "lived before the"
+	next "human race ever"
+	next "existed at all.
+	dex	
+	
 _CharmanderDexEntry::
 	text "Obviously prefers"
 	next "hot places. When"

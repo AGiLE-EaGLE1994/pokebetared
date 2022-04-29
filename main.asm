@@ -978,6 +978,35 @@ BawliguaPicBack::          INCBIN "gfx/pokemon/back/skimperb.pic"
 CryithanPicFront::         INCBIN "gfx/pokemon/front/cryithan.pic"
 CryithanPicBack::          INCBIN "gfx/pokemon/back/cryithanb.pic"
 
+TrampelPicFront::         INCBIN "gfx/pokemon/front/trampel.pic"
+TrampelPicBack::          INCBIN "gfx/pokemon/back/trampelb.pic"
+
+GorochuPicFront::         INCBIN "gfx/pokemon/front/gorochu.pic"
+GorochuPicBack::          INCBIN "gfx/pokemon/back/gorochub.pic"
+
+DecillaPicFront::         INCBIN "gfx/pokemon/front/decilla.pic"
+DecillaPicBack::          INCBIN "gfx/pokemon/back/decillab.pic"
+
+
+GolppyPicFront::         INCBIN "gfx/pokemon/front/golppy.pic"
+GolppyPicBack::          INCBIN "gfx/pokemon/back/golppyb.pic"
+
+CrockyPicFront::         INCBIN "gfx/pokemon/front/trampel.pic"
+CrockyPicBack::          INCBIN "gfx/pokemon/back/trampelb.pic"
+
+CroakozunaPicFront::         INCBIN "gfx/pokemon/front/croakozuna.pic"
+CroakozunaPicBack::          INCBIN "gfx/pokemon/back/croakozunab.pic"
+
+RibbitoPicFront::         INCBIN "gfx/pokemon/front/ribbito.pic"
+RibbitoPicBack::          INCBIN "gfx/pokemon/back/ribbitob.pic"
+
+BittybatPicFront::         INCBIN "gfx/pokemon/front/bittybat.pic"
+BittybatPicBack::          INCBIN "gfx/pokemon/back/bittybatb.pic"
+
+;TrampelPicFront::         INCBIN ;"gfx/pokemon/front/trampel.pic"
+;TrampelPicBack::          INCBIN ;"gfx/pokemon/back/trampelb.pic"
+
+
 FarfetchdPicFront::   INCBIN "gfx/pokemon/front/farfetchd.pic"
 FarfetchdPicBack::    INCBIN "gfx/pokemon/back/farfetchdb.pic"
 VenonatPicFront::     INCBIN "gfx/pokemon/front/venonat.pic"

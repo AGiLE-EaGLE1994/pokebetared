@@ -363,5 +363,12 @@ ELSE
 	db PAL_MEWMON    ; MEWTWO
 	db PAL_MEWMON    ; MEW
 	db PAL_BLUEMON ; Anchorage
+	db PAL_BLUEMON ; Jaggu
+	db PAL_YELLOWMON ;Kotora
+	db PAL_YELLOWMON ;Raitora
+	db PAL_YELLOWMON ;Gorotora
+	db PAL_BLUEMON ; Skimper
+	db PAL_BLUEMON ; Bawligua
+	db PAL_BLUEMON ; Cryithan
 ; Trainers use index 0 of MonsterPalettes
 ENDC

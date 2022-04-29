@@ -3,7 +3,7 @@ PowerPlantMons:
 	db 21, VOLTORB
 	db 21, MAGNEMITE
 	db 20, PIKACHU
-	db 24, PIKACHU
+	db 24, KOTORA
 	db 23, MAGNEMITE
 	db 23, VOLTORB
 	db 32, MAGNETON

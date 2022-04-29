@@ -78,4 +78,15 @@ MonPartyData:
 	dn ICON_WATER,       ICON_MON             ; Jaggu / Kotora
 	dn ICON_MON,       ICON_MON             ; Raitora / Gorotora
 	dn ICON_MON,       ICON_MON             ; Skimper / Bawlugila
-	dn ICON_MON,       0             ; Cryithan / Padding
+	dn ICON_MON,       ICON_MON             ; Cryithan / Decilla
+	dn ICON_MON,       ICON_MON             ; Gyaoon / Trifox
+	dn ICON_MON,       ICON_WATER             ; Guardia / Golppy
+	dn ICON_QUADRUPED,       ICON_BALL             ; Minicorn / Magnetite
+	dn ICON_MON,       ICON_BALL             ; Totartle / Bloonder
+	dn ICON_MON,       ICON_QUADRUPED             ; Freezeti / Trampel
+	dn ICON_MON,       ICON_HELIX             ; Crocky / Blottle
+	dn ICON_FAIRY,       ICON_WATER             ; Gorochu / Cheep		
+	dn ICON_WATER,       ICON_QUADRUPED             ; Jabetta / Blastyke
+	dn ICON_HELIX,       ICON_BIRD             ; Pendraken / Weirduck
+	dn ICON_MON,       ICON_MON             ; Ribbito / Croakozuna
+	dn ICON_GRASS,       ICON_BIRD             ; Stacktus / Bittybat
