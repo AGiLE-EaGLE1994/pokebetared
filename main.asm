@@ -207,6 +207,8 @@ INCLUDE "data/moves/moves.asm"
 INCLUDE "data/pokemon/base_stats.asm"
 INCLUDE "data/pokemon/cries.asm"
 INCLUDE "engine/battle/unused_stats_functions.asm"
+SECTION "Battle Engine 12", ROMX 
+
 INCLUDE "engine/battle/scroll_draw_trainer_pic.asm"
 INCLUDE "engine/battle/trainer_ai.asm"
 INCLUDE "engine/battle/draw_hud_pokeball_gfx.asm"
@@ -214,7 +216,7 @@ INCLUDE "gfx/trade.asm"
 INCLUDE "engine/pokemon/evos_moves.asm"
 INCLUDE "engine/battle/move_effects/heal.asm"
 INCLUDE "engine/battle/move_effects/transform.asm"
-INCLUDE "engine/battle/move_effects/reflect_light_screen.asm"
+
 
 INCLUDE "color/draw_hud_pokeball_gfx.asm"
 
@@ -223,7 +225,6 @@ SECTION "Battle Core", ROMX
 
 INCLUDE "engine/battle/core.asm"
 ;INCLUDE "engine/battle/effects.asm"
-
 
 SECTION "bank10", ROMX
 
@@ -261,7 +262,8 @@ SECTION "Battle Engine 8", ROMX
 
 INCLUDE "engine/battle/init_battle_variables.asm"
 INCLUDE "engine/battle/move_effects/paralyze.asm"
-
+SECTION "bank38", ROMX
+INCLUDE "engine/battle/move_effects/reflect_light_screen.asm"
 
 SECTION "Hidden Objects 2", ROMX
 
@@ -1003,8 +1005,14 @@ RibbitoPicBack::          INCBIN "gfx/pokemon/back/ribbitob.pic"
 BittybatPicFront::         INCBIN "gfx/pokemon/front/bittybat.pic"
 BittybatPicBack::          INCBIN "gfx/pokemon/back/bittybatb.pic"
 
-;TrampelPicFront::         INCBIN ;"gfx/pokemon/front/trampel.pic"
-;TrampelPicBack::          INCBIN ;"gfx/pokemon/back/trampelb.pic"
+MinicornPicFront::         INCBIN "gfx/pokemon/front/minicorn.pic"
+MinicornPicBack::          INCBIN "gfx/pokemon/back/minicornb.pic"
+
+GyaoonPicFront::
+INCBIN "gfx/pokemon/front/gyaoon.pic"
+GyaoonPicBack::          
+INCBIN "gfx/pokemon/back/gyaoonb.pic"
+
 
 
 FarfetchdPicFront::   INCBIN "gfx/pokemon/front/farfetchd.pic"
@@ -1021,5 +1029,73 @@ JynxPicFront::        INCBIN "gfx/pokemon/front/jynx.pic"
 JynxPicBack::         INCBIN "gfx/pokemon/back/jynxb.pic"
 MarowakPicFront::     INCBIN "gfx/pokemon/front/marowak.pic"
 MarowakPicBack::      INCBIN "gfx/pokemon/back/marowakb.pic"
-ENDC
 
+
+SECTION "bank39", ROMX
+
+TrifoxPicFront::
+INCBIN "gfx/pokemon/front/trifox.pic"
+TrifoxPicBack::          
+INCBIN "gfx/pokemon/back/trifoxb.pic"
+
+GuardiaPicFront::
+INCBIN "gfx/pokemon/front/guardia.pic"
+GuardiaPicBack::          
+INCBIN "gfx/pokemon/back/guardiab.pic"
+
+MagnetitePicFront::
+INCBIN "gfx/pokemon/front/magnetite.pic"
+MagnetitePicBack::          
+INCBIN "gfx/pokemon/back/magnetiteb.pic"
+
+TotartlePicFront::
+INCBIN "gfx/pokemon/front/totartle.pic"
+TotartlePicBack::          
+INCBIN "gfx/pokemon/back/totartleb.pic"
+
+BloonderPicFront::
+INCBIN "gfx/pokemon/front/bloonder.pic"
+BloonderPicBack::          
+INCBIN "gfx/pokemon/back/bloonderb.pic"
+
+FreezetiPicFront::
+INCBIN "gfx/pokemon/front/freezeti.pic"
+FreezetiPicBack::          
+INCBIN "gfx/pokemon/back/freezetib.pic"
+
+BlottlePicFront::
+INCBIN "gfx/pokemon/front/blottle.pic"
+BlottlePicBack::          
+INCBIN "gfx/pokemon/back/blottleb.pic"
+
+CheepPicFront::
+INCBIN "gfx/pokemon/front/cheep.pic"
+CheepPicBack::          
+INCBIN "gfx/pokemon/back/cheepb.pic"
+
+JabettaPicFront::
+INCBIN "gfx/pokemon/front/jabetta.pic"
+JabettaPicBack::          
+INCBIN "gfx/pokemon/back/jabettab.pic"
+
+BlastykePicFront::
+INCBIN "gfx/pokemon/front/blastyke.pic"
+BlastykePicBack::          
+INCBIN "gfx/pokemon/back/blastykeb.pic"
+
+PendrakenPicFront::
+INCBIN "gfx/pokemon/front/pendraken.pic"
+PendrakenPicBack::          
+INCBIN "gfx/pokemon/back/pendrakenb.pic"
+
+WeirduckPicFront::
+INCBIN "gfx/pokemon/front/weirduck.pic"
+WeirduckPicBack::          
+INCBIN "gfx/pokemon/back/weirduckb.pic"
+
+StacktusPicFront::
+INCBIN "gfx/pokemon/front/stacktus.pic"
+StacktusPicBack::          
+INCBIN "gfx/pokemon/back/stacktusb.pic"
+
+ENDC

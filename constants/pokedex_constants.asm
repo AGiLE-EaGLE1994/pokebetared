@@ -163,6 +163,35 @@
 	const DEX_SKIMPER ; $4F
 	const DEX_BAWLIGUA ; $50
 	const DEX_CRYITHAN ; $51
-
-
+	const DEX_TOTARTLE
+	const DEX_MINICORN
+	const DEX_GOLPPY
+	const DEX_GUARDIA
+	const DEX_TRIFOX
+	const DEX_GYAOON
+	const DEX_DECILLA
+	const DEX_BITTYBAT
+	const DEX_STACKTUS
+	const DEX_CROAKOZUNA
+	const DEX_RIBBITO
+	const DEX_WEIRDUCK
+	const DEX_NIDOREIGN
+	const DEX_GOROCHU
+	const DEX_BLOTTLE
+	const DEX_CROCKY
+	const DEX_TRAMPEL
+	const DEX_BLOONDER
+	const DEX_MAGNETITE
+	const DEX_FREEZETI
+	const DEX_CHEEP
+	const DEX_JABETTA
+	const DEX_MEOWSY
+	const DEX_BLASTYKE
+	const DEX_PENDRAKEN
+	const DEX_SCARIBOU
+	;const DEX_BAWLIGUA
+	;const DEX_
+	;const DEX_
+	
+	
 NUM_POKEMON EQU const_value - 1

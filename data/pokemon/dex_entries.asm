@@ -48,20 +48,20 @@ PokedexEntryPointers:
 	dw PsyduckDexEntry
 	dw DrowzeeDexEntry
 	dw GolemDexEntry
-	dw MissingNoDexEntry
+	dw MissingNoDexEntry ;unused
 	dw MagmarDexEntry
 	dw MissingNoDexEntry
 	dw ElectabuzzDexEntry
 	dw MagnetonDexEntry
 	dw KoffingDexEntry
-	dw MissingNoDexEntry
+	dw MissingNoDexEntry ;unused
 	dw MankeyDexEntry
 	dw SeelDexEntry
 	dw DiglettDexEntry
 	dw TaurosDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw TrampelDexEntry
+	dw CrockyDexEntry
+	dw BlottleDexEntry
 	dw FarfetchdDexEntry
 	dw VenonatDexEntry
 	dw DragoniteDexEntry
@@ -84,16 +84,16 @@ PokedexEntryPointers:
 	dw NinetalesDexEntry
 	dw PikachuDexEntry
 	dw RaichuDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw GorochuDexEntry
+	dw NidoreignDexEntry
 	dw DratiniDexEntry
 	dw DragonairDexEntry
 	dw KabutoDexEntry
 	dw KabutopsDexEntry
 	dw HorseaDexEntry
 	dw SeadraDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw MissingNoDexEntry ;unused
+	dw MissingNoDexEntry ;unused
 	dw SandshrewDexEntry
 	dw SandslashDexEntry
 	dw OmanyteDexEntry
@@ -113,38 +113,38 @@ PokedexEntryPointers:
 	dw WeedleDexEntry
 	dw KakunaDexEntry
 	dw BeedrillDexEntry
-	dw MissingNoDexEntry
+	dw MissingNoDexEntry ;unused
 	dw DodrioDexEntry
 	dw PrimeapeDexEntry
 	dw DugtrioDexEntry
 	dw VenomothDexEntry
 	dw DewgongDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw MissingNoDexEntry ;unused
+	dw MissingNoDexEntry ;unusd
 	dw CaterpieDexEntry
 	dw MetapodDexEntry
 	dw ButterfreeDexEntry
 	dw MachampDexEntry
-	dw MissingNoDexEntry
+	dw WeirduckDexEntry
 	dw GolduckDexEntry
 	dw HypnoDexEntry
 	dw GolbatDexEntry
 	dw MewtwoDexEntry
 	dw SnorlaxDexEntry
 	dw MagikarpDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw RibbitoDexEntry
+	dw CroakozunaDexEntry
 	dw MukDexEntry
-	dw MissingNoDexEntry
+	dw StacktusDexEntry
 	dw KinglerDexEntry
 	dw CloysterDexEntry
-	dw MissingNoDexEntry
+	dw BittybatDexEntry
 	dw ElectrodeDexEntry
 	dw ClefableDexEntry
 	dw WeezingDexEntry
 	dw PersianDexEntry
 	dw MarowakDexEntry
-	dw MissingNoDexEntry
+	dw DecillaDexEntry
 	dw HaunterDexEntry
 	dw AbraDexEntry
 	dw AlakazamDexEntry
@@ -154,13 +154,13 @@ PokedexEntryPointers:
 	dw BulbasaurDexEntry
 	dw VenusaurDexEntry
 	dw TentacruelDexEntry
-	dw MissingNoDexEntry
+	dw GyaoonDexEntry
 	dw GoldeenDexEntry
 	dw SeakingDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw TrifoxDexEntry
+	dw GuardiaDexEntry
+	dw GolppyDexEntry
+	dw MinicornDexEntry
 	dw PonytaDexEntry
 	dw RapidashDexEntry
 	dw RattataDexEntry
@@ -170,19 +170,19 @@ PokedexEntryPointers:
 	dw GeodudeDexEntry
 	dw PorygonDexEntry
 	dw AerodactylDexEntry
-	dw MissingNoDexEntry
+	dw MissingNoDexEntry ;unused
 	dw MagnemiteDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw TotartleDexEntry
+	dw MissingNoDexEntry ;unused
 	dw CharmanderDexEntry
 	dw SquirtleDexEntry
 	dw CharmeleonDexEntry
 	dw WartortleDexEntry
 	dw CharizardDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw MissingNoDexEntry ;unusd
+	dw MissingNoDexEntry ;unusd
+	dw MissingNoDexEntry ;unused
+	dw MissingNoDexEntry ;unused
 	dw OddishDexEntry
 	dw GloomDexEntry
 	dw VileplumeDexEntry

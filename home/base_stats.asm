@@ -151,38 +151,57 @@ INCLUDE "data/pokemon/base_stats/dragonair.asm"
 INCLUDE "data/pokemon/base_stats/dragonite.asm"
 INCLUDE "data/pokemon/base_stats/mewtwo.asm"
 INCLUDE "data/pokemon/base_stats/mew.asm"
-INCLUDE "data/pokemon/base_stats/anchorage.asm"
-INCLUDE "data/pokemon/base_stats/jaggu.asm"
-INCLUDE "data/pokemon/base_stats/kotora.asm"
+INCLUDE "data/pokemon/base_stats/anchorage.asm" ;new
+INCLUDE "data/pokemon/base_stats/jaggu.asm" ;new
+INCLUDE "data/pokemon/base_stats/kotora.asm" ;new
 INCLUDE "data/pokemon/base_stats/raitora.asm"
 INCLUDE "data/pokemon/base_stats/gorotora.asm"
 INCLUDE "data/pokemon/base_stats/skimper.asm"
 INCLUDE "data/pokemon/base_stats/bawligua.asm"
 INCLUDE "data/pokemon/base_stats/cryithan.asm"
-INCLUDE "data/pokemon/base_stats/bloonder.asm"
-INCLUDE "data/pokemon/base_stats/freezeti.asm"
-INCLUDE "data/pokemon/base_stats/trampel.asm"
-INCLUDE "data/pokemon/base_stats/crocky.asm"
-INCLUDE "data/pokemon/base_stats/blottle.asm"
+INCLUDE "data/pokemon/base_stats/totartle.asm"
+INCLUDE "data/pokemon/base_stats/minicorn.asm"
+INCLUDE "data/pokemon/base_stats/golppy.asm"
+INCLUDE "data/pokemon/base_stats/guardia.asm"
+INCLUDE "data/pokemon/base_stats/trifox.asm"
+INCLUDE "data/pokemon/base_stats/gyaoon.asm"
+INCLUDE "data/pokemon/base_stats/decilla.asm"
+INCLUDE "data/pokemon/base_stats/bittybat.asm"
+INCLUDE "data/pokemon/base_stats/stacktus.asm"
+INCLUDE "data/pokemon/base_stats/croakozuna.asm"
+INCLUDE "data/pokemon/base_stats/ribbito.asm"
+INCLUDE "data/pokemon/base_stats/weirduck.asm"
+INCLUDE "data/pokemon/base_stats/nidoreign.asm"
 INCLUDE "data/pokemon/base_stats/gorochu.asm"
+INCLUDE "data/pokemon/base_stats/blottle.asm"
+INCLUDE "data/pokemon/base_stats/crocky.asm"
+INCLUDE "data/pokemon/base_stats/trampel.asm"
+INCLUDE "data/pokemon/base_stats/bloonder.asm"
+INCLUDE "data/pokemon/base_stats/magnetite.asm"
+INCLUDE "data/pokemon/base_stats/freezeti.asm"
 INCLUDE "data/pokemon/base_stats/cheep.asm"
 INCLUDE "data/pokemon/base_stats/jabetta.asm"
+INCLUDE "data/pokemon/base_stats/meowsy.asm"
 INCLUDE "data/pokemon/base_stats/blastyke.asm"
 INCLUDE "data/pokemon/base_stats/pendraken.asm"
-INCLUDE "data/pokemon/base_stats/weirduck.asm"
-INCLUDE "data/pokemon/base_stats/ribbito.asm"
-INCLUDE "data/pokemon/base_stats/croakozuna.asm"
-INCLUDE "data/pokemon/base_stats/stacktus.asm"
-INCLUDE "data/pokemon/base_stats/bittybat.asm"
-INCLUDE "data/pokemon/base_stats/cryithan.asm"
-INCLUDE "data/pokemon/base_stats/decilla.asm"
-INCLUDE "data/pokemon/base_stats/gyaoon.asm"
-INCLUDE "data/pokemon/base_stats/trifox.asm"
-INCLUDE "data/pokemon/base_stats/guardia.asm"
-INCLUDE "data/pokemon/base_stats/golppy.asm"
-INCLUDE "data/pokemon/base_stats/minicorn.asm"
-INCLUDE "data/pokemon/base_stats/magnetite.asm"
-INCLUDE "data/pokemon/base_stats/totartle.asm"
+INCLUDE "data/pokemon/base_stats/scaribou.asm"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	assert_table_length NUM_POKEMON ; discount Mew

@@ -196,11 +196,13 @@ ROMX $2A
 	"Text 11"
 ROMX $2B
 	"Pokédex Text"
+
 ROMX $2C
 	"bank2C"
 	"Move Names"
 ROMX $31
 	"bank31"
+
 ROMX $32
 	"bank32"
 ROMX $33
@@ -213,6 +215,12 @@ ROMX $36
 	"bank36"
 ROMX $37
 	"bank37"
+ROMX $3E
+	"Pokédex Text 2"
+ROMX $3F
+	"bank39"
+ROMX $40
+	"Battle Engine 12"
 WRAM0
 	"WRAM"
 	org $c100

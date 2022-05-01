@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/stacktus.pic", 0, 1 ; sprite dimensions
 	dw StacktusPicFront, StacktusPicBack
 
-	db VINE_WHIP, SPIKE_CANNON, PIN_MISSLE, GROWTH ; level 1 learnset
+	db VINE_WHIP, SPIKE_CANNON, HORN_ATTACK , GROWTH ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

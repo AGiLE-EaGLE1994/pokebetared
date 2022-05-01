@@ -184,4 +184,4 @@ INCLUDE "data/pokemon/base_stats/croakozuna.asm"
 INCLUDE "data/pokemon/base_stats/stacktus.asm"
 INCLUDE "data/pokemon/base_stats/bittybat.asm"
 BaseStatsEnd::
-	assert BaseStatsEnd - BaseStats == (wMonHeaderEnd - wMonHeader) * (NUM_POKEMON) ; discount Mew
+	assert BaseStatsEnd - BaseStats == (wMonHeaderEnd - wMonHeader) * (NUM_POKEMON - 1) ; discount Mew

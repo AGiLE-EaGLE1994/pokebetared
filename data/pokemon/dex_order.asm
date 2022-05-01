@@ -65,7 +65,7 @@ PokedexOrder:
 	db DEX_FARFETCHD
 	db DEX_VENONAT
 	db DEX_DRAGONITE
-	db DEX_KOTORA lnew
+	db DEX_KOTORA ;new
 	db DEX_RAITORA ;new
 	db DEX_GOROTORA ;new
 	db DEX_DODUO
@@ -78,7 +78,7 @@ PokedexOrder:
 	db DEX_MEOWTH
 	db DEX_KRABBY
 	db DEX_SKIMPER ;new
-	db DEX_BAWLIGULA ;new
+	db DEX_BAWLIGUA ;new
 	db DEX_CRYITHAN ;new
 	db DEX_VULPIX
 	db DEX_NINETALES

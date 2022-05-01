@@ -95,8 +95,8 @@ EvosMovesPointerTable:
 	dw KabutopsEvosMoves
 	dw HorseaEvosMoves
 	dw SeadraEvosMoves
-	dw MissingNo5EEvosMoves
-	dw MissingNo5FEvosMoves
+	dw CheepEvosMoves
+	dw JabettaEvosMoves
 	dw SandshrewEvosMoves
 	dw SandslashEvosMoves
 	dw OmanyteEvosMoves
@@ -116,38 +116,38 @@ EvosMovesPointerTable:
 	dw WeedleEvosMoves
 	dw KakunaEvosMoves
 	dw BeedrillEvosMoves
-	dw MissingNo73EvosMoves
+	dw BlastykeEvosMoves
 	dw DodrioEvosMoves
 	dw PrimeapeEvosMoves
 	dw DugtrioEvosMoves
 	dw VenomothEvosMoves
 	dw DewgongEvosMoves
-	dw MissingNo79EvosMoves
-	dw MissingNo7AEvosMoves
+	dw MeowsyEvosMoves
+	dw PendrakenEvosMoves
 	dw CaterpieEvosMoves
 	dw MetapodEvosMoves
 	dw ButterfreeEvosMoves
 	dw MachampEvosMoves
-	dw MissingNo7FEvosMoves
+	dw WeirduckEvosMoves
 	dw GolduckEvosMoves
 	dw HypnoEvosMoves
 	dw GolbatEvosMoves
 	dw MewtwoEvosMoves
 	dw SnorlaxEvosMoves
 	dw MagikarpEvosMoves
-	dw MissingNo86EvosMoves
-	dw MissingNo87EvosMoves
+	dw RibbitoEvosMoves
+	dw CroakozunaEvosMoves
 	dw MukEvosMoves
-	dw MissingNo8AEvosMoves
+	dw StacktusEvosMoves
 	dw KinglerEvosMoves
 	dw CloysterEvosMoves
-	dw MissingNo8CEvosMoves
+	dw BittybatEvosMoves
 	dw ElectrodeEvosMoves
 	dw ClefableEvosMoves
 	dw WeezingEvosMoves
 	dw PersianEvosMoves
 	dw MarowakEvosMoves
-	dw MissingNo92EvosMoves
+	dw DecillaEvosMoves
 	dw HaunterEvosMoves
 	dw AbraEvosMoves
 	dw AlakazamEvosMoves
@@ -157,13 +157,13 @@ EvosMovesPointerTable:
 	dw BulbasaurEvosMoves
 	dw VenusaurEvosMoves
 	dw TentacruelEvosMoves
-	dw MissingNo9CEvosMoves
+	dw GyaoonEvosMoves
 	dw GoldeenEvosMoves
 	dw SeakingEvosMoves
-	dw MissingNo9FEvosMoves
-	dw MissingNoA0EvosMoves
-	dw MissingNoA1EvosMoves
-	dw MissingNoA2EvosMoves
+	dw TrifoxEvosMoves
+	dw GuardiaEvosMoves
+	dw GolppyEvosMoves
+	dw MinicornEvosMoves
 	dw PonytaEvosMoves
 	dw RapidashEvosMoves
 	dw RattataEvosMoves
@@ -173,10 +173,10 @@ EvosMovesPointerTable:
 	dw GeodudeEvosMoves
 	dw PorygonEvosMoves
 	dw AerodactylEvosMoves
-	dw MissingNoACEvosMoves
+	dw MagnetiteEvosMoves
 	dw MagnemiteEvosMoves
 	dw TotartleEvosMoves
-	dw MissingNoAFEvosMoves
+	dw MissingNoAFEvosMoves ;unused
 	dw CharmanderEvosMoves
 	dw SquirtleEvosMoves
 	dw CharmeleonEvosMoves
@@ -738,7 +738,7 @@ ParasectEvosMoves:
 
 PsyduckEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 33, GOLDUCK
+	db EV_LEVEL, 33, WEIRDUCK
 	db 0
 ; Learnset
 	db 28, TAIL_WHIP
@@ -1469,7 +1469,7 @@ BeedrillEvosMoves:
 	db 35, AGILITY
 	db 0
 
-MissingNo73EvosMoves:
+BlastykeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
@@ -1532,13 +1532,13 @@ DewgongEvosMoves:
 	db 56, ICE_BEAM
 	db 0
 
-MissingNo79EvosMoves:
+MeowsyEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
 	db 0
 
-MissingNo7AEvosMoves:
+PendrakenEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
@@ -1582,10 +1582,16 @@ MachampEvosMoves:
 	db 52, SUBMISSION
 	db 0
 
-MissingNo7FEvosMoves:
+WeirduckEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 43, GOLDUCK
 	db 0
 ; Learnset
+	db 28, TAIL_WHIP
+	db 31, DISABLE
+	db 39, CONFUSION
+	db 48, FURY_SWIPES
+	db 59, HYDRO_PUMP
 	db 0
 
 GolduckEvosMoves:
@@ -1651,13 +1657,14 @@ MagikarpEvosMoves:
 	db 15, TACKLE
 	db 0
 
-MissingNo86EvosMoves:
+RibbitoEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 35, CROAKOZUNA
 	db 0
 ; Learnset
 	db 0
 
-MissingNo87EvosMoves:
+CroakozunaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
@@ -1675,7 +1682,7 @@ MukEvosMoves:
 	db 60, ACID_ARMOR
 	db 0
 
-MissingNo8AEvosMoves:
+StacktusEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
@@ -1699,8 +1706,9 @@ CloysterEvosMoves:
 	db 50, SPIKE_CANNON
 	db 0
 
-MissingNo8CEvosMoves:
+BittybatEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 20, ZUBAT
 	db 0
 ; Learnset
 	db 0
@@ -1746,19 +1754,31 @@ PersianEvosMoves:
 
 MarowakEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 31, GUARDIA
 	db 0
 ; Learnset
 	db 25, LEER
 	db 33, FOCUS_ENERGY
+	db 36, SKULL_BASH	
 	db 41, THRASH
 	db 48, BONEMERANG
+	db 52, ROCK_THROW 
 	db 55, RAGE
 	db 0
 
-MissingNo92EvosMoves:
+DecillaEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 43, GYAOON
 	db 0
 ; Learnset
+	db 5, LEER
+	db 8, SAND_ATTACK 
+	db 15, SKULL_BASH	
+	db 27, THRASH
+	db 33, ROCK_SLIDE
+	db 52, ROCK_THROW 
+	db 55, RAGE
+	db 66, FISSURE
 	db 0
 
 HaunterEvosMoves:
@@ -1861,10 +1881,17 @@ TentacruelEvosMoves:
 	db 50, HYDRO_PUMP
 	db 0
 
-MissingNo9CEvosMoves:
+GyaoonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 27, HEADBUTT
+	db 36, ROCK_THROW
+	db 39, BODY_SLAM
+	db 47, ROCK_SLIDE
+	db 51, MEGA_PUNCH
+	db 58, EARTHQUAKE
+	db 66, FISSURE
 	db 0
 
 GoldeenEvosMoves:
@@ -1892,28 +1919,49 @@ SeakingEvosMoves:
 	db 54, AGILITY
 	db 0
 
-MissingNo9FEvosMoves:
+TrifoxEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 15, VULPIX
 	db 0
 ; Learnset
+	db 2, TACKLE
+	db 5, TAIL_WHIP
+	db 8, EMBER
+	db 12, LEER
 	db 0
 
-MissingNoA0EvosMoves:
+GuardiaEvosMoves:
 ; Evolutions
-	db 0
+	db EV_LEVEL, 64, KANGASKHAN
 ; Learnset
+	db 25, LEER
+	db 31, FOCUS_ENERGY
+	db 38, THRASH
+	db 43, BONEMERANG
+	db 46, RAGE
+	db 49, MEGA_KICK
 	db 0
 
-MissingNoA1EvosMoves:
+GolppyEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 2, TACKLE
+	db 12, PECK
+	db 20, WATER_GUN
 	db 0
 
-MissingNoA2EvosMoves:
+MinicornEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 20, PONYTA
 	db 0
 ; Learnset
+	db 30, TAIL_WHIP
+	db 32, STOMP
+	db 35, GROWL
+	db 39, FIRE_SPIN
+	db 43, TAKE_DOWN
+	db 48, AGILITY
 	db 0
 
 PonytaEvosMoves:
@@ -2021,15 +2069,23 @@ AerodactylEvosMoves:
 	db 54, HYPER_BEAM
 	db 0
 
-MissingNoACEvosMoves:
+MagnetiteEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 50, MAGNETON
 	db 0
 ; Learnset
+	db 21, SONICBOOM
+	db 25, THUNDERSHOCK
+	db 29, SUPERSONIC
+	db 38, THUNDER_WAVE
+	db 46, SWIFT
+	db 54, SCREECH
 	db 0
+
 
 MagnemiteEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 30, MAGNETON
+	db EV_LEVEL, 25, MAGNETITE
 	db 0
 ; Learnset
 	db 21, SONICBOOM
@@ -2044,6 +2100,12 @@ TotartleEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 8, BUBBLE
+	db 15, WATER_GUN
+	db 24, BITE
+	db 31, WITHDRAW
+	db 42, SKULL_BASH
+	db 52, HYDRO_PUMP
 	db 0
 
 MissingNoAFEvosMoves:
@@ -2093,7 +2155,8 @@ CharmeleonEvosMoves:
 
 WartortleEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 36, BLASTOISE
+	;db EV_LEVEL, 36, BLASTOISE
+	db EV_LEVEL, 36, TOTARTLE ;changed evolution	
 	db 0
 ; Learnset
 	db 8, BUBBLE
