@@ -56,7 +56,7 @@
 	const PSYDUCK            ; $2F
 	const DROWZEE            ; $30
 	const GOLEM              ; $31
-	const BLOODNER               ; $32
+	const BLOONDER               ; $32
 	const MAGMAR             ; $33
 	const FREEZETI               ; $34
 	const ELECTABUZZ         ; $35

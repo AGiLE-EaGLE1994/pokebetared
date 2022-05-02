@@ -1013,6 +1013,20 @@ INCBIN "gfx/pokemon/front/gyaoon.pic"
 GyaoonPicBack::          
 INCBIN "gfx/pokemon/back/gyaoonb.pic"
 
+ScaribouPicFront::
+INCBIN "gfx/pokemon/front/scaribou.pic"
+ScaribouPicBack::          
+INCBIN "gfx/pokemon/back/scariboub.pic"
+
+MeowsyPicFront::
+INCBIN "gfx/pokemon/front/meowsy.pic"
+MeowsyPicBack::          
+INCBIN "gfx/pokemon/back/meowsyb.pic"
+
+NidoreignPicFront::
+INCBIN "gfx/pokemon/front/nidoreign.pic"
+NidoreignPicBack::          
+INCBIN "gfx/pokemon/back/nidoreignb.pic"
 
 
 FarfetchdPicFront::   INCBIN "gfx/pokemon/front/farfetchd.pic"
