@@ -8,7 +8,7 @@ CeruleanMart_Object:
 	def_signs
 
 	def_objects
-	object SPRITE_CLERK, 0, 5, STAY, RIGHT, 1 ; person
+	object SPRITE_CLERK,  2,  1, STAY, RIGHT, 1 ; person
 	object SPRITE_COOLTRAINER_M, 3, 4, WALK, UP_DOWN, 2 ; person
 	object SPRITE_COOLTRAINER_F, 6, 2, WALK, LEFT_RIGHT, 3 ; person
 

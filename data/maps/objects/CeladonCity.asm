@@ -3,7 +3,7 @@ CeladonCity_Object:
 
 	def_warps
 	warp 10, -2, 0, CELADON_MART_1F
-	warp  9, -2, 2, CELADON_MART_1F
+	warp 36, 15, 2, VERMILION_MART
 	warp 20, 21, 0, CELADON_MANSION_1F
 	warp 24,  3, 2, CELADON_MANSION_1F
 	warp 25,  3, 2, CELADON_MANSION_1F

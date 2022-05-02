@@ -8,7 +8,7 @@ LavenderMart_Object:
 	def_signs
 
 	def_objects
-	object SPRITE_CLERK, 0, 5, STAY, RIGHT, 1 ; person
+	object SPRITE_CLERK,  2,  1, STAY, RIGHT, 1 ; person
 	object SPRITE_BALDING_GUY, 3, 4, STAY, NONE, 2 ; person
 	object SPRITE_COOLTRAINER_M, 7, 2, STAY, NONE, 3 ; person
 
