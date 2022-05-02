@@ -77,11 +77,11 @@ FlyWarpDataPtr:
 	fly_warp_spec ROUTE_10,        .Route10
 
 .PalletTown:     fly_warp PALLET_TOWN,      5,  6
-.ViridianCity:   fly_warp VIRIDIAN_CITY,   23, 26
+.ViridianCity:   fly_warp VIRIDIAN_CITY,   27, 22
 .PewterCity:     fly_warp PEWTER_CITY,     13, 26
 .CeruleanCity:   fly_warp CERULEAN_CITY,   19, 18
 .LavenderTown:   fly_warp LAVENDER_TOWN,    3,  6
-.VermilionCity:  fly_warp VERMILION_CITY,  11,  4
+.VermilionCity:  fly_warp VERMILION_CITY,  22,  9
 .CeladonCity:    fly_warp CELADON_CITY,    41, 10
 .FuchsiaCity:    fly_warp FUCHSIA_CITY,    19, 28
 .CinnabarIsland: fly_warp CINNABAR_ISLAND, 11, 12

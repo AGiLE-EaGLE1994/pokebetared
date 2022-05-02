@@ -8,7 +8,7 @@ ENDM
 
 Tilesets:
 	; block, gfx, coll, 3 counter tiles, grass tile, animations
-	tileset Overworld_Block,   Overworld_GFX,   Overworld_Coll,   $FF,$FF,$FF, $34, TILEANIM_WATER_FLOWER
+	tileset Overworld_Block,   Overworld_GFX,   Overworld_Coll,   $FF,$FF,$FF, $52, TILEANIM_WATER_FLOWER
 	tileset RedsHouse1_Block,  RedsHouse1_GFX,  RedsHouse1_Coll,  $FF,$FF,$FF, $FF, TILEANIM_NONE
 	tileset Mart_Block,        Mart_GFX,        Mart_Coll,        $18,$19,$1E, $FF, TILEANIM_NONE
 	tileset Forest_Block,      Forest_GFX,      Forest_Coll,      $FF,$FF,$FF, $20, TILEANIM_WATER
