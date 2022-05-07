@@ -182,10 +182,10 @@ PokemonCries::
 	mon_cry CRY_TOGEPI,       16,  256 ; Cheep/ TOGEPI
 	mon_cry CRY_TOGETIC,      59,   56 ; Jabetta/ TOGETIC
 	mon_cry CRY_NATU,       -103,  256 ; Bastyke/ NATU
-	mon_cry CRY_NATU,       -167,  360 ; Weirduck/ XATU
+	mon_cry CRY_RHYDON,        64,  128 ; Weirduck/ XATU
 	mon_cry CRY_MAREEP,       34,  216 ; Ribbito /MAREEP
 	mon_cry CRY_MAREEP,       -7,  384 ; Croakozuna/ FLAAFFY
-	mon_cry CRY_NIDORAN_M, 128, 16  ; Stacktus.
+	mon_cry CRY_NIDORAN_M, 128, 128  ; Stacktus
 	mon_cry CRY_CLEFFA,      132,  336 ; Bittybat/ BELLOSSOM
 	mon_cry CRY_MARILL,      283,  288 ; Scaribou/ MARILL
 	mon_cry CRY_MARILL,      182,  384 ; Nidoreign/ AZUMARILL
