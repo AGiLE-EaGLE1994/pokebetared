@@ -50,7 +50,7 @@ PokedexEntryPointers:
 	dw GolemDexEntry
 	dw MissingNoDexEntry ;unused
 	dw MagmarDexEntry
-	dw MissingNoDexEntry
+	dw FreezetiDexEntry
 	dw ElectabuzzDexEntry
 	dw MagnetonDexEntry
 	dw KoffingDexEntry
@@ -92,8 +92,8 @@ PokedexEntryPointers:
 	dw KabutopsDexEntry
 	dw HorseaDexEntry
 	dw SeadraDexEntry
-	dw MissingNoDexEntry ;unused
-	dw MissingNoDexEntry ;unused
+	dw CheepDexEntry ;unused
+	dw JabettaDexEntry ;unused
 	dw SandshrewDexEntry
 	dw SandslashDexEntry
 	dw OmanyteDexEntry
@@ -170,7 +170,7 @@ PokedexEntryPointers:
 	dw GeodudeDexEntry
 	dw PorygonDexEntry
 	dw AerodactylDexEntry
-	dw MissingNoDexEntry ;unused
+	dw MagnetiteDexEntry ;unused
 	dw MagnemiteDexEntry
 	dw TotartleDexEntry
 	dw MissingNoDexEntry ;unused
@@ -545,6 +545,13 @@ MagmarDexEntry:
 	text_far _MagmarDexEntry
 	text_end
 
+FreezetiDexEntry:
+	db "ICE BEAST@"
+	db 4,03
+	dw 849
+	text_far _FreezetiDexEntry
+	text_end	
+	
 ElectabuzzDexEntry:
 	db "ELECTRIC@"
 	db 3,7
@@ -565,6 +572,13 @@ KoffingDexEntry:
 	dw 20
 	text_far _KoffingDexEntry
 	text_end
+	
+ScaribouDexEntry:
+	db "LURKING@"
+	db 4,03
+	dw 1887
+	text_far _ScaribouDexEntry
+	text_end	
 
 MankeyDexEntry:
 	db "PIG MONKEY@"
@@ -826,6 +840,21 @@ SeadraDexEntry:
 	dw 550
 	text_far _SeadraDexEntry
 	text_end
+	
+CheepDexEntry:
+	db "FLYINGFISH@"
+	db 1,08
+	dw 176
+	text_far _CheepDexEntry
+	text_end	
+	
+JabettaDexEntry:
+	db "FLYINGFISH@"
+	db 3,11
+	dw 1131
+	text_far _JabettaDexEntry
+	text_end	
+	
 
 SandshrewDexEntry:
 	db "MOUSE@"
@@ -994,6 +1023,13 @@ DewgongDexEntry:
 	dw 2650
 	text_far _DewgongDexEntry
 	text_end
+	
+MeowsyDexEntry:
+	db "SCRATCHCAT@"
+	db 1,0
+	dw 55
+	text_far _MeowsyDexEntry
+	text_end	
 
 CaterpieDexEntry:
 	db "WORM@"
@@ -1338,6 +1374,13 @@ AerodactylDexEntry:
 	text_far _AerodactylDexEntry
 	text_end
 
+MagnetiteDexEntry:
+	db "MAGNET@"
+	db 2,0
+	dw 728
+	text_far _MagnetiteDexEntry
+	text_end	
+	
 MagnemiteDexEntry:
 	db "MAGNET@"
 	db 1,0

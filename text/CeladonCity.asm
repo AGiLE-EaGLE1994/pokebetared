@@ -98,7 +98,7 @@ _CeladonCityText10::
 	cont "critical hits!"
 
 	para "Get your items at"
-	line "CELADON DEPT."
+	line "VERMILION DEPT."
 	cont "STORE!"
 	done
 

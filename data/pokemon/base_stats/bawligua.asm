@@ -7,7 +7,7 @@
 	db 75 ; catch rate
 	db 156 ; base exp
 
-	INCBIN "gfx/pokemon/front/skimper.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/bawligua.pic", 0, 1 ; sprite dimensions
 	dw BawliguaPicFront, BawliguaPicBack
 
 	db THUNDERSHOCK, GROWL, THUNDER_WAVE, NO_MOVE ; level 1 learnset

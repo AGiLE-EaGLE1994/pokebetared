@@ -497,6 +497,16 @@ _MagmarDexEntry::
 	next "hide perfectly"
 	next "among flames"
 	dex
+	
+_FreezetiDexEntry::
+	text "It does not like"
+	next "to socialize and"
+	next "hides in caves"
+
+	page "near the top of"
+	next "cold and lonely"
+	next "mountains."
+	dex	
 
 _ElectabuzzDexEntry::
 	text "Normally found"
@@ -528,6 +538,16 @@ _KoffingDexEntry::
 	next "without warning"
 	dex
 
+_ScaribouDexEntry::
+	text "From its horns,"
+	next "It emits creepy"
+	next "waves to drive"
+
+	page "away intruders"
+	next "in its chosen"
+	next "territory."
+	dex	
+	
 _MankeyDexEntry::
 	text "Extremely quick to"
 	next "anger. It could"
@@ -898,6 +918,26 @@ _SeadraDexEntry::
 	next "stout tail"
 	dex
 
+_CheepDexEntry::
+	text "Hundreds gather"
+	next "to compete in big"
+	next "feeding frenzies."
+
+	page "The losers often"
+	next "become easy prey"
+	next "for JAGGU."
+	dex	
+
+_JabettaDexEntry::
+	text "It often settles"
+	next "territorial feuds"
+	next "with a duel."
+
+	page "Their fights may"
+	next "damage nearby"
+	next "coral reefs."
+	dex
+	
 _SandshrewDexEntry::
 	text "Burrows deep"
 	next "underground in"
@@ -1137,6 +1177,16 @@ _DewgongDexEntry::
 	next "even in intensely"
 	next "cold waters"
 	dex
+	
+_MeowsyDexEntry::
+	text "It tries to"
+	next "collect up"
+	next "everything it"
+
+	page "sees, but has"
+	next "trouble storing"
+	next "it all."
+	dex	
 
 _CaterpieDexEntry::
 	text "Its short feet"
@@ -1504,7 +1554,7 @@ _TrifoxDexEntry::
 
 	page "very mischievous"
 	next "nature makes it"
-	next "hard to care for."
+	next "hard to care for"
 	dex	
 	
 _GuardiaDexEntry::
@@ -1514,7 +1564,7 @@ _GuardiaDexEntry::
 
 	page "matter where they"
 	next "are, and will come"
-	next "for revenge."
+	next "for revenge"
 	dex
 
 _GolppyDexEntry::
@@ -1524,7 +1574,7 @@ _GolppyDexEntry::
 
 	page "of one dedicated"
 	next "breeder, it has"
-	next "flourished again."
+	next "flourished again"
 	dex	
 
 _MinicornDexEntry::
@@ -1534,7 +1584,7 @@ _MinicornDexEntry::
 
 	page "and can be"
 	next "trained for this"
-	next "before evolving."
+	next "before evolving"
 	dex		
 	
 _PonytaDexEntry::
@@ -1617,84 +1667,6 @@ _PorygonDexEntry::
 	next "cyberspace"
 	dex
 
-_AerodactylDexEntry::
-	text "A ferocious, pre-"
-	next "historic #MON"
-	next "that goes for the"
 
-	page "enemy's throat"
-	next "with its serrated"
-	next "saw-like fangs"
-	dex
-
-_MagnemiteDexEntry::
-	text "Uses anti-gravity"
-	next "to stay suspended."
-	next "Appears without"
-
-	page "warning and uses"
-	next "THUNDER WAVE and"
-	next "similar moves"
-	dex
-
-_TotartleDexEntry::
-	text "Some of them are"
-	next "so old, they are"
-	next "believed to have"
-
-	page "lived before the"
-	next "human race ever"
-	next "existed at all."
-	dex	
-	
-_CharmanderDexEntry::
-	text "Obviously prefers"
-	next "hot places. When"
-	next "it rains, steam"
-
-	page "is said to spout"
-	next "from the tip of"
-	next "its tail"
-	dex
-
-_SquirtleDexEntry::
-	text "After birth, its"
-	next "back swells and"
-	next "hardens into a"
-
-	page "shell. Powerfully"
-	next "sprays foam from"
-	next "its mouth"
-	dex
-
-_CharmeleonDexEntry::
-	text "When it swings"
-	next "its burning tail,"
-	next "it elevates the"
-
-	page "temperature to"
-	next "unbearably high"
-	next "levels"
-	dex
-
-_WartortleDexEntry::
-	text "Often hides in"
-	next "water to stalk"
-	next "unwary prey. For"
-
-	page "swimming fast, it"
-	next "moves its ears to"
-	next "maintain balance"
-	dex
-
-_CharizardDexEntry::
-	text "Spits fire that"
-	next "is hot enough to"
-	next "melt boulders."
-
-	page "Known to cause"
-	next "forest fires"
-	next "unintentionally"
-	dex
 
 

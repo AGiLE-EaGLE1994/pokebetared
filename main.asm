@@ -974,8 +974,8 @@ GorotoraPicBack::          INCBIN "gfx/pokemon/back/gorotorab.pic"
 SkimperPicFront::         INCBIN "gfx/pokemon/front/skimper.pic"
 SkimperPicBack::          INCBIN "gfx/pokemon/back/skimperb.pic"
 
-BawliguaPicFront::         INCBIN "gfx/pokemon/front/skimper.pic"
-BawliguaPicBack::          INCBIN "gfx/pokemon/back/skimperb.pic"
+BawliguaPicFront::         INCBIN "gfx/pokemon/front/bawligua.pic"
+BawliguaPicBack::          INCBIN "gfx/pokemon/back/bawliguab.pic"
 
 CryithanPicFront::         INCBIN "gfx/pokemon/front/cryithan.pic"
 CryithanPicBack::          INCBIN "gfx/pokemon/back/cryithanb.pic"
