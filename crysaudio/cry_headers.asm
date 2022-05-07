@@ -165,31 +165,31 @@ PokemonCries::
 	mon_cry CRY_TOTODILE,   1132,  232 ; TOTODILE
 	mon_cry CRY_TOTODILE,   1088,  272 ; CROCONAW
 	mon_cry CRY_TOTODILE,   1020,  384 ; FERALIGATR
-	mon_cry CRY_SENTRET,     138,  184 ; SENTRET
-	mon_cry CRY_SENTRET,     107,  258 ; FURRET
-	mon_cry CRY_HOOTHOOT,    145,  216 ; HOOTHOOT
-	mon_cry CRY_HOOTHOOT,      0,  416 ; NOCTOWL
-	mon_cry CRY_LEDYBA,        0,  222 ; LEDYBA
-	mon_cry CRY_LEDYBA,     -150,  312 ; LEDIAN
-	mon_cry CRY_SPINARAK,     17,  512 ; SPINARAK
-	mon_cry CRY_SPINARAK,   -174,  482 ; ARIADOS
-	mon_cry CRY_SQUIRTLE,    -16,  320 ; CROBAT
-	mon_cry CRY_CYNDAQUIL,   969,  320 ; CHINCHOU
-	mon_cry CRY_CYNDAQUIL,   720,  272 ; LANTURN
-	mon_cry CRY_PICHU,         0,  320 ; PICHU
-	mon_cry CRY_CLEFFA,       97,  145 ; CLEFFA
-	mon_cry CRY_CHIKORITA,   232,  232 ; IGGLYBUFF
-	mon_cry CRY_TOGEPI,       16,  256 ; TOGEPI
-	mon_cry CRY_TOGETIC,      59,   56 ; TOGETIC
-	mon_cry CRY_NATU,       -103,  256 ; NATU
-	mon_cry CRY_NATU,       -167,  360 ; XATU
-	mon_cry CRY_MAREEP,       34,  216 ; MAREEP
-	mon_cry CRY_MAREEP,       -7,  384 ; FLAAFFY
-	mon_cry CRY_AMPHAROS,   -124,  232 ; AMPHAROS
-	mon_cry CRY_CLEFFA,      132,  336 ; BELLOSSOM
-	mon_cry CRY_MARILL,      283,  288 ; MARILL
-	mon_cry CRY_MARILL,      182,  384 ; AZUMARILL
-	mon_cry CRY_CLEFFA,     3904,  384 ; SUDOWOODO
+	mon_cry CRY_BULBASAUR,     0,  320 ; Gyaoon / Sentret
+	mon_cry CRY_PIDGEY,      224,  96 ; Trifox / FURRET
+	mon_cry CRY_HOOTHOOT,    145,  216 ; Guardia/ HOOTHOOT
+	mon_cry CRY_HOOTHOOT,      0,  416 ; Minicorn/ NOCTOWL
+	mon_cry CRY_LEDYBA,        0,  222 ; Magnetite/ LEDYBA
+	mon_cry CRY_SQUIRTLE,    -16,  320 ; Totartle/ LEDIAN
+	mon_cry CRY_SPINARAK,     17,  512 ; Bloonder/ SPINARAK
+	mon_cry CRY_SPINARAK,   -174,  482 ; Golppy/ ARIADOS
+	mon_cry CRY_SQUIRTLE,    -16,  320 ; Freezeti/CROBAT
+	mon_cry CRY_CYNDAQUIL,   969,  320 ; Trampel/ CHINCHOU
+	mon_cry CRY_CYNDAQUIL,   720,  272 ; Crocky/ LANTURN
+	mon_cry CRY_PICHU,         0,  320 ; Blottle/ PICHU
+	mon_cry CRY_CLEFFA,       97,  145 ; Pendraken/ CLEFFA
+	mon_cry CRY_CHIKORITA,   232,  232 ; Gorochu/ IGGLYBUFF
+	mon_cry CRY_TOGEPI,       16,  256 ; Cheep/ TOGEPI
+	mon_cry CRY_TOGETIC,      59,   56 ; Jabetta/ TOGETIC
+	mon_cry CRY_NATU,       -103,  256 ; Bastyke/ NATU
+	mon_cry CRY_NATU,       -167,  360 ; Weirduck/ XATU
+	mon_cry CRY_MAREEP,       34,  216 ; Ribbito /MAREEP
+	mon_cry CRY_MAREEP,       -7,  384 ; Croakozuna/ FLAAFFY
+	mon_cry CRY_NIDORAN_M, 128, 16  ; Stacktus.
+	mon_cry CRY_CLEFFA,      132,  336 ; Bittybat/ BELLOSSOM
+	mon_cry CRY_MARILL,      283,  288 ; Scaribou/ MARILL
+	mon_cry CRY_MARILL,      182,  384 ; Nidoreign/ AZUMARILL
+	mon_cry CRY_CLEFFA,     3904,  384 ; Meowsy/ SUDOWOODO
 	mon_cry CRY_CLEFFA,     -675,  456 ; POLITOED
 	mon_cry CRY_CLEFFA,       59,  200 ; HOPPIP
 	mon_cry CRY_CLEFFA,       39,  312 ; SKIPLOOM
