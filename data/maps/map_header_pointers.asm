@@ -244,7 +244,7 @@ MapHeaderPointers::
 	dw SilphCo2F_h ; UNUSED_MAP_F1
 	dw SilphCo2F_h ; UNUSED_MAP_F2
 	dw SilphCo2F_h ; UNUSED_MAP_F3
-	dw SilphCo2F_h ; UNUSED_MAP_F4
+	dw Citrine_h ; UNUSED_MAP_F4
 	dw LoreleisRoom_h
 	dw BrunosRoom_h
 	dw AgathasRoom_h ;247

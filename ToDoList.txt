@@ -1,0 +1,46 @@
+Todo list:
+Replace tilesets
+Edit maps
+Add new Pokemon
+Order for new Pokemon:
+Anchorage
+Jaggu
+Sunmola
+Dunkeld
+Decilla
+Gyaoon
+Gorochu
+Cactus
+Crocky
+Omega
+Cheep
+Jabetta
+Trampel
+Kotora
+Raitora
+Gorotora
+Freezeti
+Blottle
+Pendraken
+Sumo frogs. Forgot their names
+Bawligua and Cryithan
+Barunda
+Deer
+
+Meowsy
+Minicorn
+
+
+Add new trainers
+Reimplement Professor Oak battle
+Add new wild encounter data
+Reimplement scrapped moves
+Reimplement the "Bird" type
+Reimplement Missingno as an actual, defined species
+Edit "follow me" scripts
+Reimplement unused Earthtron cry
+Change Pokemon Center healing theme and remove healing machine animation
+Add Town Map marker for Citrine
+Add Fly Marker for Citrine
+Add new song for Citrine town
+Reimplement the scrapped "Ground rose up somewhere" field move
