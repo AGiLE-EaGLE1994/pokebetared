@@ -423,10 +423,33 @@ MewEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, TRANSFORM
-	db 20, MEGA_PUNCH
-	db 30, METRONOME
-	db 40, PSYCHIC_M
+	;db 10, TRANSFORM
+	;db 20, MEGA_PUNCH
+	;db 30, METRONOME
+	;db 40, PSYCHIC_M
+	db 6, UPPERCUT
+	
+	db 7, BYEBYEPUNCH	
+	db 8, PARA_SCISSOR	
+	db 9, DIVEBOMB	
+	db 10, FIREBALL	
+	db 11, HYDRO_JET	
+	db 12, ELEKITEL	
+	db 13, FIFTYM_VOLTS	
+	db 14, GASTRO_ACID	
+	db 15, BITEBITE	
+	db 16, BARK	
+	db 17, LUNGE	
+	db 18, FLOOD
+	db 19, TRANSPARENCY	
+	db 20, PHYSICALWALL
+	db 21, SPECIALWALL
+	db 22, DEFENSEWALL
+	db 23, SQUID_INK	
+	db 24, CAT_CLAW	
+	db 25, STAR_FREEZE	
+	db 26, MOLT	
+	db 27, SCALD  
 	db 0
 
 GyaradosEvosMoves:

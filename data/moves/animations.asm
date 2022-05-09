@@ -164,6 +164,29 @@ AttackAnimationPointers:
 	dw SlashAnim
 	dw SubstituteAnim
 	dw StruggleAnim
+	;dw PunchAnim
+	dw UppercutAnim	   ; a6
+	dw ByeByePunchAnim  ; a7
+	dw ParaScissorAnim ; a8
+	dw DivebombAnim	; a9
+	dw FireballAnim     ; aa
+	dw HydroJetAnim    ; ab
+	dw ElekitelAnim     ; ac
+	dw FiftyMVoltsAnim  ; ad
+	dw GastroAcidAnim  ; ae
+	dw BiteBiteAnim     ; af
+	dw BarkAnim         ; b0
+	dw LungeAnim		   ; b1
+	dw FloodAnim		   ; b2
+	dw TransparencyAnim ; b4
+	dw PhysicalWallAnim ; b5
+	dw SpecialWallAnim  ; b6
+	dw DefenseWallAnim  ; b7
+	dw SquidInkAnim    ; b8
+	dw CatClawAnim     ; b9
+	dw StarFreezeAnim  ; ba
+	dw MoltAnim 		   ; bb
+	dw ScaldAnim		   ; bc
 	dw ShowPicAnim
 	dw EnemyFlashAnim
 	dw PlayerFlashAnim
@@ -202,29 +225,7 @@ AttackAnimationPointers:
 	dw ThrowRockAnim
 	dw ThrowBaitAnim
 	dw ZigZagScreenAnim
-	;dw PunchAnim
-	dw UppercutAnim	   ; a6
-	dw ByeByePunchAnim  ; a7
-	dw ParaScissorAnim ; a8
-	dw DivebombAnim	; a9
-	dw FireballAnim     ; aa
-	dw HydroJetAnim    ; ab
-	dw ElekitelAnim     ; ac
-	dw FiftyMVoltsAnim  ; ad
-	dw GastroAcidAnim  ; ae
-	dw BiteBiteAnim     ; af
-	dw BarkAnim         ; b0
-	dw LungeAnim		   ; b1
-	dw FloodAnim		   ; b2
-	dw TransparencyAnim ; b4
-	dw PhysicalWallAnim ; b5
-	dw SpecialWallAnim  ; b6
-	dw DefenseWallAnim  ; b7
-	dw SquidInkAnim    ; b8
-	dw CatClawAnim     ; b9
-	dw StarFreezeAnim  ; ba
-	dw MoltAnim 		   ; bb
-	dw ScaldAnim		   ; bc
+
 
 ; each animation is a list of subanimations
 ; and/or special effects, terminated by -1
