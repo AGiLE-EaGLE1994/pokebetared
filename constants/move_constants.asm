@@ -162,7 +162,6 @@
 	const FURY_SWIPES  ; 9a
 	const BONEMERANG   ; 9b
 	const REST         ; 9c
-	const ROCK_SLIDE   ; 9d
 	const HYPER_FANG   ; 9e
 	const SHARPEN      ; 9f
 	const CONVERSION   ; a0
@@ -170,6 +169,32 @@
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
+	;const PUNCH 	    a5
+	const UPPERCUT	   ; a6
+	const BYEBYEPUNCH  ; a7
+	const PARA_SCISSOR ; a8
+	const DIVEBOMB     ; a9
+	const FIREBALL     ; aa
+	const HYDRO_JET    ; ab
+	const ELEKITEL     ; ac
+	const FIFTYM_VOLTS  ; ad
+	const GASTRO_ACID  ; ae
+	const BITEBITE     ; af
+	const BARK         ; b0
+	const LUNGE		   ; b1
+	const FLOOD		   ; b2
+	const ROCK_SLIDE   ; b3
+	const TRANSPARENCY ; b4
+	const PHYSICALWALL ; b5
+	const SPECIALWALL  ; b6
+	const DEFENSEWALL  ; b7
+	const SQUID_INK    ; b8
+	const CAT_CLAW     ; b9
+	const STAR_FREEZE  ; ba
+	const MOLT 		   ; bb
+	const SCALD		   ; bc
+;	const MEGA_FIRE     bd
+;	const POWDER_SNOW   be
 
 NUM_ATTACKS EQU const_value - 1
 

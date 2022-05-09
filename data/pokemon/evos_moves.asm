@@ -563,10 +563,11 @@ JagguEvosMoves:
 	db 10, BITE
 	db 15, LEER
 	db 23, SWORDS_DANCE
+	db 18, SHARPEN
 	db 27, BUBBLEBEAM
 	db 32, DOUBLE_EDGE
 	db 37, HORN_DRILL
-	db 43, SHARPEN
+	db 43, HYDRO_JET
 	db 51, HYDRO_PUMP
 	db 64, SUPERSONIC
 	db 0 ; no more level-up moves
@@ -576,6 +577,7 @@ GrowlitheEvosMoves:
 	db EV_ITEM, FIRE_STONE, 1, ARCANINE
 	db 0
 ; Learnset
+	db 7, BARK
 	db 18, EMBER
 	db 23, LEER
 	db 30, TAKE_DOWN

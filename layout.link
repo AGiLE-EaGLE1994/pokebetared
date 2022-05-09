@@ -223,6 +223,8 @@ ROMX $40
 	"Battle Engine 12"
 ROMX $41
 	"Pics 7"
+ROMX $42
+	"bank3C"
 WRAM0
 	"WRAM"
 	org $c100

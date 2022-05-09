@@ -202,6 +202,30 @@ AttackAnimationPointers:
 	dw ThrowRockAnim
 	dw ThrowBaitAnim
 	dw ZigZagScreenAnim
+	;dw PunchAnim
+	dw UppercutAnim	   ; a6
+	dw ByeByePunchAnim  ; a7
+	dw ParaScissorAnim ; a8
+	dw DivebombAnim	; a9
+	dw FireballAnim     ; aa
+	dw HydroJetAnim    ; ab
+	dw ElekitelAnim     ; ac
+	dw FiftyMVoltsAnim  ; ad
+	dw GastroAcidAnim  ; ae
+	dw BiteBiteAnim     ; af
+	dw BarkAnim         ; b0
+	dw LungeAnim		   ; b1
+	dw FloodAnim		   ; b2
+	dw RockSlideAnim   ; b3
+	dw TransparencyAnim ; b4
+	dw PhysicalWallAnim ; b5
+	dw SpecialWallAnim  ; b6
+	dw DefenseWallAnim  ; b7
+	dw SquidInkAnim    ; b8
+	dw CatClawAnim     ; b9
+	dw StarFreezeAnim  ; ba
+	dw MoltAnim 		   ; bb
+	dw ScaldAnim		   ; bc
 
 ; each animation is a list of subanimations
 ; and/or special effects, terminated by -1
@@ -1136,6 +1160,122 @@ SubstituteAnim:
 	battle_anim NO_MOVE, SUBANIM_47, 0, 8
 	battle_anim NO_MOVE, SE_SUBSTITUTE_MON
 	db -1 ; end
+	
+	
+	 UppercutAnim:	   ; a6
+	battle_anim KARATE_CHOP, SUBANIM_03, 0, 8
+	db -1 ; end	 
+	 
+	 ByeByePunchAnim:  ; a7
+	battle_anim MEGA_PUNCH, SUBANIM_04, 1, 6
+	db -1 ; end	 
+	 
+	 ParaScissorAnim: ; a8
+	battle_anim VICEGRIP, SUBANIM_2A, 0, 8
+	db -1 ; end	 
+	 
+	 DivebombAnim:	; a9
+	battle_anim FLY, SUBANIM_04, 1, 6
+	battle_anim NO_MOVE, SE_SHOW_MON_PIC
+	db -1 ; end	 
+	 
+	 FireballAnim:     ; aa
+	battle_anim EMBER, SUBANIM_11, 1, 6
+	db -1 ; end
+	 
+	 HydroJetAnim:
+	battle_anim HYDRO_PUMP, SUBANIM_1A, 0, 6
+	battle_anim HYDRO_PUMP, SUBANIM_1A, 0, 6
+	db -1 ; end
+	 ; ab
+	 
+	 
+	 ElekitelAnim:    ; ac
+	battle_anim THUNDER_WAVE, SUBANIM_29, 1, 2	 
+	db -1 ; end	 ; ad
+	
+	 FiftyMVoltsAnim:
+	battle_anim THUNDER, SE_DARK_SCREEN_PALETTE
+	battle_anim THUNDER_WAVE, SUBANIM_29, 1, 2
+	battle_anim NO_MOVE, SUBANIM_2B, 1, 6
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim THUNDERBOLT, SUBANIM_29, 1, 2
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end	 ; ad
+	 
+	 GastroAcidAnim:
+	battle_anim SURF, SE_WATER_DROPLETS_EVERYWHERE
+	battle_anim TOXIC, SUBANIM_14, 1, 6
+	db -1 ; end	 ; ae
+	
+	 BiteBiteAnim:     ; af
+	battle_anim BITE, SUBANIM_02, 0, 8
+	db -1 ; end	 
+	 
+	 BarkAnim:         ; b0
+	battle_anim GROWL, SUBANIM_12, 1, 6
+	db -1 ; end	 
+	 
+	 LungeAnim:		   ; b1
+	 
+	 
+	 FloodAnim:		   ; b2
+	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim SURF, SE_WATER_DROPLETS_EVERYWHERE
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end	 
+	
+	 
+	 
+	 TransparencyAnim: ; b4
+	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim LIGHT_SCREEN, SUBANIM_33, 1, 6
+	battle_anim LIGHT_SCREEN, SUBANIM_33, 1, 6
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end	 
+	 
+	 PhysicalWallAnim: ; b5
+	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim LIGHT_SCREEN, SUBANIM_33, 1, 6
+	battle_anim LIGHT_SCREEN, SUBANIM_33, 1, 6
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end	 
+	 
+	 SpecialWallAnim:  ; b6
+	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim LIGHT_SCREEN, SUBANIM_33, 1, 6
+	battle_anim LIGHT_SCREEN, SUBANIM_33, 1, 6
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end	 
+	 
+	 DefenseWallAnim:  ; b7
+	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim LIGHT_SCREEN, SUBANIM_33, 1, 6
+	battle_anim LIGHT_SCREEN, SUBANIM_33, 1, 6
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end	 
+	 
+	 SquidInkAnim:    ; b8
+	battle_anim ACID, SUBANIM_13, 1, 6
+	battle_anim ACID, SUBANIM_14, 1, 6
+	battle_anim WATER_GUN, SUBANIM_2C, 0, 6
+	db -1 ; end	 
+	 
+	 CatClawAnim:     ; b9
+	battle_anim SLASH, SUBANIM_0F, 0, 6
+	db -1 ; end	 
+	 
+	 StarFreezeAnim:  ; ba
+	battle_anim BLIZZARD, SUBANIM_38, 0, 4
+	battle_anim HYDRO_PUMP, SUBANIM_38, 0, 4
+	db -1 ; end	 
+	 
+	 MoltAnim: 		   ; bb
+	 
+	 
+	 ScaldAnim:		   ; bc	 
+	battle_anim WATER_GUN, SUBANIM_2C, 0, 6
+	db -1 ; end	
 
 BallTossAnim:
 	battle_anim NO_MOVE, SUBANIM_06, 0, 3
