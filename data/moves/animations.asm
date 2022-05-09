@@ -216,7 +216,6 @@ AttackAnimationPointers:
 	dw BarkAnim         ; b0
 	dw LungeAnim		   ; b1
 	dw FloodAnim		   ; b2
-	dw RockSlideAnim   ; b3
 	dw TransparencyAnim ; b4
 	dw PhysicalWallAnim ; b5
 	dw SpecialWallAnim  ; b6
