@@ -174,7 +174,8 @@ MoveEnd:
 	move TRI_ATTACK,   NO_ADDITIONAL_EFFECT,        80, NORMAL,       100, 10
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,        90, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
-	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10
+	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10	
+	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	;move PUNCH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20		
 	move UPPERCUT,        FLINCH_SIDE_EFFECT1,        70, NORMAL,       100, 20	
 	move BYEBYEPUNCH,        FLINCH_SIDE_EFFECT1,        70, FIGHTING,       100, 20	
@@ -188,24 +189,13 @@ MoveEnd:
 	move BITEBITE,        OHKO_EFFECT,        70, NORMAL,       93, 6	
 	move BARK,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20	
 	move LUNGE,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       96, 27	
-	move FLOOD,        TRAPPING_EFFECT,        70, WATER,       100, 17	
-	move TRANSPARENCY,        NO_ADDITIONAL_EFFECT,        70, PSYCHIC_TYPE,       100, 20	
-	move PHYSICALWALL,        NO_ADDITIONAL_EFFECT,        70, PSYCHIC_TYPE,       100, 20	
-	move SPECIALWALL,        NO_ADDITIONAL_EFFECT,        70, PSYCHIC_TYPE,       100, 20	
-	move DEFENSEWALL,        NO_ADDITIONAL_EFFECT,        70, PSYCHIC_TYPE,       100, 20	
+	move FLOOD,   TRAPPING_EFFECT,        70, WATER,       100, 17	
+	move TRANSPARENCY,      NO_ADDITIONAL_EFFECT,        70, PSYCHIC_TYPE,       100, 20	
+	move PHYSICALWALL,     NO_ADDITIONAL_EFFECT,        70, PSYCHIC_TYPE,       100, 20	
+	move SPECIALWALL,      NO_ADDITIONAL_EFFECT,        70, PSYCHIC_TYPE,       100, 20	
+	move DEFENSEWALL,     NO_ADDITIONAL_EFFECT,        70, PSYCHIC_TYPE,       100, 20	
 	move SQUID_INK,        NO_ADDITIONAL_EFFECT,        70, POISON,       89, 30	
 	move CAT_CLAW,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20	
 	move STAR_FREEZE,        BURN_SIDE_EFFECT1,        70, ICE,       97, 22	
 	move MOLT,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20	
-	move SCALD,        BURN_SIDE_EFFECT1,        70, WATER,       100, 25	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
+	move SCALD,        BURN_SIDE_EFFECT1,        70, WATER,       100, 25

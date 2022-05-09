@@ -162,6 +162,7 @@
 	const FURY_SWIPES  ; 9a
 	const BONEMERANG   ; 9b
 	const REST         ; 9c
+	const ROCK_SLIDE   ; 9d
 	const HYPER_FANG   ; 9e
 	const SHARPEN      ; 9f
 	const CONVERSION   ; a0
@@ -183,7 +184,6 @@
 	const BARK         ; b0
 	const LUNGE		   ; b1
 	const FLOOD		   ; b2
-	const ROCK_SLIDE   ; b3
 	const TRANSPARENCY ; b4
 	const PHYSICALWALL ; b5
 	const SPECIALWALL  ; b6
