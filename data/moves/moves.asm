@@ -167,35 +167,12 @@ MoveEnd:
 	move FURY_SWIPES,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, NORMAL,        80, 15
 	move BONEMERANG,   ATTACK_TWICE_EFFECT,         50, GROUND,        90, 10
 	move REST,         HEAL_EFFECT,                  0, PSYCHIC_TYPE, 100, 10
-	move ROCK_SLIDE,   TRAPPING_EFFECT,        75, ROCK,          90, 10
+	move ROCK_SLIDE,   NO_ADDITIONAL_EFFECT,        75, ROCK,          90, 10
 	move HYPER_FANG,   FLINCH_SIDE_EFFECT1,         80, NORMAL,        90, 15
 	move SHARPEN,      ATTACK_UP1_EFFECT,            0, NORMAL,       100, 30
 	move CONVERSION,   CONVERSION_EFFECT,            0, NORMAL,       100, 30
 	move TRI_ATTACK,   NO_ADDITIONAL_EFFECT,        80, NORMAL,       100, 10
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,        90, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
-	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10	
+	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
-	;move PUNCH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20		
-	move UPPERCUT,        FLINCH_SIDE_EFFECT1,        70, NORMAL,       100, 20	
-	move BYEBYEPUNCH,        FLINCH_SIDE_EFFECT1,        70, FIGHTING,       100, 20	
-	move PARA_SCISSOR,        TRAPPING_EFFECT,        70, BUG,       100, 20	
-	move DIVEBOMB,        FLY_EFFECT,        70, FLYING,       100, 20	
-	move FIREBALL,        BURN_SIDE_EFFECT1,        70, FIRE,       100, 20	
-	move HYDRO_JET,        NO_ADDITIONAL_EFFECT,        70, WATER,       100, 20	
-	move ELEKITEL,        PARALYZE_EFFECT,        70, ELECTRIC,       100, 20	
-	move FIFTYM_VOLTS,        OHKO_EFFECT,        70, ELECTRIC,       86, 7	
-	move GASTRO_ACID,        POISON_EFFECT,        70, POISON,       93, 20	
-	move BITEBITE,        OHKO_EFFECT,        70, NORMAL,       93, 6	
-	move BARK,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20	
-	move LUNGE,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       96, 27	
-	move FLOOD,   TRAPPING_EFFECT,        70, WATER,       100, 17	
-	move TRANSPARENCY,      NO_ADDITIONAL_EFFECT,        70, PSYCHIC_TYPE,       100, 20	
-	move PHYSICALWALL,     NO_ADDITIONAL_EFFECT,        70, PSYCHIC_TYPE,       100, 20	
-	move SPECIALWALL,      NO_ADDITIONAL_EFFECT,        70, PSYCHIC_TYPE,       100, 20	
-	move DEFENSEWALL,     NO_ADDITIONAL_EFFECT,        70, PSYCHIC_TYPE,       100, 20	
-	move SQUID_INK,        NO_ADDITIONAL_EFFECT,        70, POISON,       89, 30	
-	move CAT_CLAW,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20	
-	move STAR_FREEZE,        BURN_SIDE_EFFECT1,        70, ICE,       97, 22	
-	move MOLT,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20	
-	move SCALD,        BURN_SIDE_EFFECT1,        70, WATER,       100, 25
