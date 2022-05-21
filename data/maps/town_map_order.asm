@@ -26,6 +26,7 @@ TownMapOrder:
 	db ROUTE_7
 	db CELADON_CITY
 	db SAFFRON_CITY
+	db CITRINE
 	db ROUTE_11
 	db ROUTE_12
 	db ROUTE_13

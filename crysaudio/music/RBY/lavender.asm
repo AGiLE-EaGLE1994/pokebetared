@@ -12,10 +12,7 @@ Music_Lavender_Ch1::
 	toggle_perfect_pitch
 	vibrato 0, 8, 8
 	note_type 12, 8, 7
-	rest 16
-	rest 16
-	rest 16
-	rest 16
+
 	note_type 12, 10, 7
 
 Music_Lavender_branch_bb6b::
@@ -76,48 +73,15 @@ Music_Lavender_Ch2::
 
 Music_Lavender_branch_bba5::
 	note_type 12, 11, 5
-	rest 4
-	octave 3
-	note D_, 4
-	note E_, 6
-	note C#, 2
-	note_type 12, 11, 1
-	note D_, 4
-	note_type 12, 11, 5
-	note B_, 4
-	octave 4
-	note C_, 6
-	octave 3
-	note A_, 2
-	note_type 12, 11, 1
-	note B_, 4
-	note_type 12, 11, 5
-	note G_, 4
-	note F#, 4
-	note E_, 2
-	note F#, 2
-	note_type 12, 11, 1
-	note G_, 4
-	note_type 12, 11, 5
-	note G_, 4
-	note F#, 4
-	note E_, 4
-	note D_, 4
-	note E_, 4
-	note F#, 6
-	note A_, 2
-	note_type 12, 11, 1
-	note G_, 4
-	note_type 12, 11, 5
-	note B_, 4
-	octave 4
-	note C_, 6
-	octave 3
-	note A_, 2
-	note B_, 4
-	note G_, 4
-	note F#, 3
-	note E_, 1
+	octave 3	
+
+	note_type 6, 11, 5
+		octave 3
+	note F#, 6 ;start between this note
+	;    note [...] ; a note half as long as note 27
+    sound_jump Music_Cinnabar_branch_b878.note28 ; jump to note 28
+	
+	;note E_, 1  and this one, which is 28 notes in
 	note F#, 2
 	note A_, 2
 	note_type 12, 10, 2
@@ -151,16 +115,13 @@ Music_Lavender_branch_bba5::
 	note G_, 8
 	note F#, 4
 	note E_, 4
+
 	sound_loop 0, Music_Lavender_branch_bba5
 
 
 Music_Lavender_Ch3::
 	vibrato 4, 1, 1
 	note_type 12, 3, 15
-	rest 16
-	rest 16
-	rest 16
-	rest 16
 	note_type 12, 2, 15
 	load_wave 2, 1, 14, 2, 3, 3, 2, 8, 14, 1, 2, 2, 15, 15, 14, 10, 1, 0, 1, 4, 13, 12, 1, 0, 14, 3, 4, 1, 5, 1, 7, 3
 
@@ -268,10 +229,7 @@ Music_Lavender_branch_bbb9::
 Music_Lavender_Ch4::
 	toggle_noise 0
 	drum_speed 12
-	rest 16
-	rest 16
-	rest 16
-	rest 16
+
 
 Music_Lavender_branch_bc26::
 	drum_note 7, 8

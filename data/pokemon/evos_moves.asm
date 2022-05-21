@@ -423,6 +423,7 @@ MewEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 6, RECOVER
 	db 10, TRANSFORM
 	db 20, MEGA_PUNCH
 	db 30, METRONOME

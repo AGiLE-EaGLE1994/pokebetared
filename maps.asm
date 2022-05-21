@@ -1017,7 +1017,10 @@ INCLUDE "scripts/PokemonTower6F.asm"
 INCLUDE "data/maps/objects/PokemonTower6F.asm"
 PokemonTower6F_Blocks: INCBIN "maps/PokemonTower6F.blk"
 
-	INCBIN "maps/UnusedEmptyMap.blk"
+INCLUDE "data/maps/headers/Citrine.asm"
+INCLUDE "scripts/Citrine.asm"
+INCLUDE "data/maps/objects/Citrine.asm"
+Citrine_Blocks: INCBIN "maps/Citrine.blk"
 
 INCLUDE "data/maps/headers/PokemonTower7F.asm"
 INCLUDE "scripts/PokemonTower7F.asm"

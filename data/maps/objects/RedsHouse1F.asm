@@ -7,7 +7,7 @@ RedsHouse1F_Object:
 	warp  7,  1, 0, REDS_HOUSE_2F ; staircase
 
 	def_signs
-	sign  3,  1, 2 ; TV
+	sign  4,  1, 2 ; TV
 
 	def_objects
 	object SPRITE_MOM, 5, 4, STAY, LEFT, 1 ; Mom

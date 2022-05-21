@@ -10,7 +10,8 @@ Music_Cinnabar_Ch1::
 	duty_cycle 3
 	vibrato 12, 3, 4
 	toggle_perfect_pitch
-
+;.note28:
+	;stereo_panning FALSE, TRUE 
 Music_Cinnabar_branch_b878::
 	note_type 12, 11, 5
 	rest 4
@@ -50,11 +51,12 @@ Music_Cinnabar_branch_b878::
 	octave 4
 	note C_, 6
 	octave 3
-	note A_, 2
+	note A_, 2 ;new attempt
 	note B_, 4
 	note G_, 4
-	note F#, 3
-	note E_, 1
+	note F#, 3 ;start between this note
+	.note28::
+	note E_, 1 ; and this one, which is 28 notes in
 	note F#, 2
 	note A_, 2
 	note_type 12, 10, 2

@@ -317,13 +317,13 @@ SECTION "RBY Songs 1", ROMX
 	inc_section "crysaudio/music/RBY/ssanne.asm"
 	inc_section "crysaudio/music/RBY/cities2.asm"
 	inc_section "crysaudio/music/RBY/celadon.asm"
-	inc_section "crysaudio/music/RBY/cinnabar.asm"
-	inc_section "crysaudio/music/RBY/vermilion.asm"
-	inc_section "crysaudio/music/RBY/lavender.asm"
 	inc_section "crysaudio/music/RBY/safarizone.asm"
 	inc_section "crysaudio/music/RBY/gym.asm"
 	inc_section "crysaudio/music/RBY/pokecenter.asm"
-
+	inc_section "crysaudio/music/RBY/vermilion.asm"
+   SECTION "Cinnabar and Lavender themes", ROMX
+    INCLUDE "crysaudio/music/RBY/cinnabar.asm"
+    INCLUDE "crysaudio/music/RBY/lavender.asm"
 
 SECTION "RBY Songs 2", ROMX
 

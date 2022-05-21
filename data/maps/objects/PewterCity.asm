@@ -16,7 +16,7 @@ PewterCity_Object:
 	sign 30, 19,  8 ; MartSignText
 	sign 15, 25,  9 ; PokeCenterSignText
 	sign 15,  9, 10 ; PewterCityText10
-	sign 11, 19, 11 ; PewterCityText11
+	sign 11, 15, 11 ; PewterCityText11
 	sign 25, 23, 12 ; PewterCityText12
 
 	def_objects
