@@ -1,0 +1,90 @@
+Todo list:
+Replace tilesets
+Edit maps
+Add new Pokemon
+Order for new Pokemon:
+Anchorage✓
+Jaggu✓
+Sunmola
+Dunkeld
+Decilla✓
+Gyaoon✓
+Gorochu✓
+Cactus✓
+Crocky✓
+Omega
+Cheep✓
+Jabetta✓
+Trampel✓
+Kotora✓
+Raitora✓
+Gorotora✓
+Freezeti✓
+Blottle✓
+Pendraken✓
+Sumo frogs. Forgot their names✓✓
+Bawligua and Cryithan✓✓
+Barunda✓
+Deer✓
+
+Meowsy✓
+Minicorn✓
+
+
+Add new trainers:
+Firefighter
+Chief
+Jack
+Student
+
+
+
+Reimplement Professor Oak battle
+
+
+Add new wild encounter data
+
+
+Reimplement scrapped moves
+List:
+
+Punch : self-explainatory
+Uppercut : Fighting type move, causes flinch
+Byebye Punch :OHKO Fighting move
+Para-Scissor : Bug-type trapping move
+Divebomb :Basically Fly, but in one turn, has recoil
+Fireball : fire attack, can cause flinch
+Mega Fire 
+Powder Snow 
+Hydro Jet : Water move like Hydro Pump, but does more damage, has recoil
+Elekitel :Thunder Wave but deals damage
+50mil. Volts : OHKO Electric move
+Gastro Acid : Poison move that traps enemy
+BiteBite : OHKO bite move
+Bark 
+Psychic Wave
+Lunge
+Flood : Water attack, traps enemy
+Rock Slide : Rock attack, traps enemy
+Transparency : 
+PhysicalWall : raises 
+SpecialWall : Diet Amnesia
+DefenseWall : Amnesia, but raises defense
+Squid Ink : Water type move, lowers accuracy, can poison
+DoubleReturn :Renamed Mirror Move
+Cat Claw : Like Quick Attack, but scatters coins
+
+Star Freeze :Ice Type move that can cause burn
+Molt : Acts like Haze
+
+
+
+Reimplement the "Bird" type
+Reimplement Missingno as an actual, defined species
+Edit "follow me" scripts
+Reimplement unused Earthtron cry
+Change Pokemon Center healing theme and remove healing machine animation
+Add Town Map marker for Citrine
+Add Fly Marker for Citrine
+Add new song for Citrine town
+Reimplement the scrapped "Ground rose up somewhere" field move

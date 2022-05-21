@@ -394,8 +394,7 @@ INCLUDE "data/moves/animations.asm"
 INCLUDE "data/battle_anims/subanimations.asm"
 INCLUDE "data/battle_anims/frame_blocks.asm"
 INCLUDE "engine/movie/evolution.asm"
-INCLUDE "engine/overworld/elevator.asm"
-INCLUDE "engine/items/tm_prices.asm"
+
 
 INCLUDE "color/animations.asm"
 
@@ -1112,4 +1111,9 @@ INCBIN "gfx/pokemon/front/stacktus.pic"
 StacktusPicBack::          
 INCBIN "gfx/pokemon/back/stacktusb.pic"
 
+
+SECTION "bank3C", ROMX
+
+INCLUDE "engine/overworld/elevator.asm"
+INCLUDE "engine/items/tm_prices.asm"
 ENDC
