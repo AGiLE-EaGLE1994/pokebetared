@@ -1,5 +1,4 @@
 Citrine_Script:
-.next
 	call EnableAutoTextBoxDrawing
 
 

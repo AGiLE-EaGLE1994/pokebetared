@@ -11,7 +11,7 @@ MapHeaderBanks::
 	db BANK(CinnabarIsland_h)
 	db BANK(IndigoPlateau_h)
 	db BANK(SaffronCity_h)
-	db $01 ; UNUSED_MAP_0B
+	db BANK(Citrine_h) ; UNUSED_MAP_0B
 	db BANK(Route1_h)
 	db BANK(Route2_h)
 	db BANK(Route3_h)
@@ -244,7 +244,7 @@ MapHeaderBanks::
 	db $11 ; UNUSED_MAP_F1
 	db $11 ; UNUSED_MAP_F2
 	db $11 ; UNUSED_MAP_F3
-	db BANK(Citrine_h) ; UNUSED_MAP_F4
+	db $11 ; UNUSED_MAP_F4
 	db BANK(LoreleisRoom_h)
 	db BANK(BrunosRoom_h)
 	db BANK(AgathasRoom_h)

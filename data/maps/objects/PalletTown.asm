@@ -5,7 +5,7 @@ PalletTown_Object:
 	warp  6,  5, 0, REDS_HOUSE_1F
 	warp 14,  5, 0, BLUES_HOUSE
 	warp 12, 11, 1, OAKS_LAB
-	warp 18, 11, 1, CITRINE
+	warp 14, 11, 1, CITRINE
 
 	def_signs
 	sign 13, 13, 4 ; PalletTownText4

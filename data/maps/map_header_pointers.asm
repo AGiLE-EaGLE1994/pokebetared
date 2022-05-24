@@ -11,7 +11,7 @@ MapHeaderPointers::
 	dw CinnabarIsland_h
 	dw IndigoPlateau_h
 	dw SaffronCity_h
-	dw SaffronCity_h ; UNUSED_MAP_0B
+	dw Citrine_h ; UNUSED_MAP_0B
 	dw Route1_h
 	dw Route2_h
 	dw Route3_h
@@ -244,7 +244,7 @@ MapHeaderPointers::
 	dw SilphCo2F_h ; UNUSED_MAP_F1
 	dw SilphCo2F_h ; UNUSED_MAP_F2
 	dw SilphCo2F_h ; UNUSED_MAP_F3
-	dw Citrine_h ; UNUSED_MAP_F4
+	dw SilphCo2F_h ; UNUSED_MAP_F4
 	dw LoreleisRoom_h
 	dw BrunosRoom_h
 	dw AgathasRoom_h ;247

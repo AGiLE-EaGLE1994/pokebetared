@@ -19,7 +19,7 @@ LavenderTown_Object:
 
 	def_objects
 	object SPRITE_LITTLE_GIRL, 13,  4, WALK, ANY_DIR, 1 ; person
-	object SPRITE_COOLTRAINER_M, 9, 10, STAY, NONE, 2 ; person
-	object SPRITE_SUPER_NERD, 8, 7, WALK, LEFT_RIGHT, 3 ; person
+	object SPRITE_COOLTRAINER_M, 18,  8, STAY, NONE, 2 ; person
+	object SPRITE_SUPER_NERD,  2,  8, WALK, LEFT_RIGHT, 3 ; person
 
 	def_warps_to LAVENDER_TOWN

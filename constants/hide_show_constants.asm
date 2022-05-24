@@ -20,7 +20,7 @@ SHOW EQU $15
 	const HS_CERULEAN_CAVE_GUY             ; 08
 	const HS_CERULEAN_GUARD_2              ; 09
 	const HS_SAFFRON_CITY_1                ; 0A
-	const HS_SAFFRON_CITY_2                ; 0B
+	const HS_CITRINE           ; 0B
 	const HS_SAFFRON_CITY_3                ; 0C
 	const HS_SAFFRON_CITY_4                ; 0D
 	const HS_SAFFRON_CITY_5                ; 0E
